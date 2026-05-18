@@ -1,115 +1,111 @@
 ## Pattern · ai-agents
 
-**Confidence:** medium (N=17)
-**Last build:** 2026-05-08T02:04:30Z
-
----
+**Confidence:** high (N=38)
+**Last build:** 2026-05-18T11:25:58Z
 
 ### Cosa accumuna i contenuti che Mirco salva su questo topic
 
-1. **Multi-agent orchestration come protagonista narrativo** (≈65% dei contenuti): il contenuto non mostra un singolo AI, ma sistemi gerarchici o paralleli — 100 agenti, 42 in gerarchia, team coordinati. Il numero specifico di agenti è sempre esplicitato nel titolo/hook come prova di scalabilità reale.
+1. **Claude-centrismo dominante (≈68% dei contenuti):** La quasi totalità dei contenuti ruota attorno a Claude come runtime principale — Claude Code, Claude Skills, Claude Routines, Apify+Claude, Playwright+Claude. Non è interesse generico per gli AI agent: è interesse specifico per l'ecosistema Anthropic come stack operativo.
 
-2. **Non-programmatore come hero della storia** (≈35% dei contenuti, tutti P0): i contenuti più prioritari mostrano persone senza skill tecniche che distruggono competitor professionali o replicano prodotti da miliardi. Il messaggio sottostante è sempre *la barriera tecnica è collassata, il vantaggio è nell'esecuzione e nel dominio*.
+2. **Automazione orientata al revenue, non alla demo (≈79% P0+P1):** I contenuti salvati mostrano quasi sempre un output misurabile — ads generate, lead raccolti, siti a $10k, wallet svuotati, unicorni legali distrutti. Il pattern non è "cosa può fare l'AI" ma "quanto produce in denaro/tempo". Score medi altissimi (9-10/10) confermano selezione editoriale severa su questo asse.
 
-3. **Workflow concreto e replicabile come formato dominante** (≈80% dei contenuti): nessun contenuto puramente teorico. Ogni post mostra uno stack specifico (tool A + tool B → output quantificato). La formula ricorrente è: *trigger → agenti → artefatto misurabile* (100 ads, video animati, lead generati, reparto vendite automatizzato).
+3. **Multi-agent e orchestrazione come architettura preferita (≈45% dei contenuti):** Swarm, dashboard mission control, Paperclip, Pulse, Ruflo — Mirco accumula sistematicamente contenuti su agenti in parallelo, flotte cloud, team di agenti simulati. L'interesse si sposta dall'agente singolo alla *governance di sistemi agentici*.
 
-4. **Claude come backbone implicito o esplicito** (≈70% dei contenuti): Claude appare in modo ricorrente non come feature ma come *infrastruttura invisibile* del sistema. Questo segnala che Mirco percepisce Claude come lo standard operativo del suo stack agenti, non come opzione.
+4. **Open-source come credibilità + funnel (≈40% dei contenuti):** Repository GitHub, prompt template open-source, 100 agenti gratis, CLI senza API. Il pattern ricorrente è: strumento gratuito/pubblico → credibilità tecnica → conversione. Mirco lo salva perché lo vuole *replicare come meccanismo*, non solo consumare.
 
-5. **Funnel IG embedded nel formato** (≈55% dei contenuti): la maggior parte dei contenuti con tag `funnel-ig` non tratta i social come distribuzione, ma come *meccanismo di acquisizione integrato nel workflow stesso* — il contenuto dimostra il prodotto e simultaneamente è il funnel.
+5. **Casi studio con protagonista non-tecnico (≈21% ma tutti P0):** MikeOS, vibe-coding, PMI, non-programmatori che distruggono unicorni. Contenuti con il pattern "chiunque può farlo" hanno urgenza massima (9/10) e priority P0 — segnale che Mirco vede questo frame come leva narrativa forte per il suo pubblico.
 
 ---
 
 ### Visual signature ricorrenti
 
-- **Palette:** dark background dominante (nero/grigio scuro) con accenti in verde neon, bianco puro o arancione saturato — segnala *tech operativo*, non educational pastello
-- **Font:** sans-serif bold condensed per i numeri chiave (es. "100 agenti", "42 agents", "2 weeks") — i numeri sono sempre la hero visual
-- **Framing:** screen recording del workflow in esecuzione + overlay grafico del sistema (diagramma nodi/frecce che mostra la gerarchia degli agenti) — mai solo slide statiche
-- **Motion:** workflow animato in tempo reale o timelapse accelerato dell'output generato; Higgsfield CLI introduce pattern CLI-as-visual (terminale che scorre come estetica)
-- **Proporzioni:** formato verticale 9:16 dominante con testo sovrimpresso alto-schermo; nei workflow più tecnici compare il 16:9 landscape per leggibilità dello stack
+- **Palette:** Dark mode dominante (nero/antracite) con accenti verde terminale o azzurro Anthropic. Quando si esce dal dark, si va su bianco flat con un solo colore saturato (arancio, viola).
+- **Typography:** Monospace/code font per output e snippet — comunica "vero lavoro, non slide". Titoli in sans-serif bold, peso 700+.
+- **Framing:** Dashboard screenshots, terminale CLI, output di agenti in run real-time. Il frame preferito è *lo schermo dentro lo schermo* — mostra cosa sta girando, non chi lo fa girare.
+- **Motion:** Scroll veloce su output lunghissimi (implica quantità), time-lapse di agent che completano task, cursore che digita da solo. Motion = prova che gira davvero.
+- **Struttura visiva:** Prima frame sempre = risultato finale o numero (es. "100 ads", "$10k", "2 settimane"). Mai apertura su processo.
 
 ---
 
 ### Hook style ricorrenti
 
-- **Hook numerico + risultato impossibile:** *"100 agenti AI in parallelo"*, *"42 agenti in gerarchia"*, *"100 ads da un prompt"* — il numero grande apre il gap di credibilità nei primi 2s
-- **Hook identitario ribaltato:** *"un non-programmatore distrugge unicorni da $11B"* — pattern provocatorio che usa la figura del non-esperto come leva aspirazionale per l'audience di Mirco (imprenditori, non dev)
-- **Hook problema→soluzione immediata:** *"web scraping in linguaggio naturale senza codice"* — il benefit è nel titolo, i 2s visivi mostrano il terminale già in esecuzione, senza setup
-- **Hook confronto competitivo:** *"Obsidian+Claude vs agenti AI con memoria persistente: chi è avanti"* — il formato battle/versus genera attrito cognitivo e retiene
+- **Numero + risultato impossibile:** "100 ads da un prompt", "sito da $10k con una riga", "50 skill in 60 secondi" — la soglia percepita di effort crolla, il valore esplode.
+- **Contrasto prima/dopo implicito:** "Un non-programmatore distrugge unicorni legali da $11 miliardi" — non serve spiegare il prima, è già codificato nell'identità del protagonista.
+- **Tool combo inaspettata:** "Playwright + Claude Code", "Codice Morse + wallet crypto" — due elementi distanti messi insieme attivano curiosità tecnica immediata.
+- **Urgenza temporale dichiarata:** "2026", "prima di spendere budget", "24/7" — frame temporale che spinge lo spettatore a percepire un ritardo se non agisce ora.
 
 ---
 
 ### Voice/audio pattern ricorrenti
 
-- **Ritmo:** veloce-medio con pause drammatiche sui numeri chiave (il numero viene detto lentamente, poi il ritmo riprende)
-- **Energia:** alta ma controllata — non hype da guru, più *founder che dimostra in live*, tono da "guarda cosa ho costruito ieri sera"
-- **Prosody:** frasi brevi e assertive, nessuna subordinata lunga; uso frequente di pause prima del reveal dell'output finale
-- **Voiceover vs talking head:** nei contenuti più tecnici prevale voiceover su screen recording; talking head compare solo nei contenuti con forte componente identitaria (non-programmatore hero)
-- **Musica:** background lo-fi tech o silenzio quasi totale nei workflow — la musica non compete con il contenuto informativo
+- **Energia media-alta, mai urlata:** Tono da *founder che mostra il setup*, non da hype creator. Autorevolezza tecnica senza cattedra.
+- **Ritmo spezzato con pause su numeri:** La voce rallenta sui dati chiave (cifre, nomi tool, risultati) e accelera sulla spiegazione tecnica — segnale di chi sa cosa è rilevante per l'audience.
+- **Italiano tecnico misto a termini EN non tradotti:** "Agenti", "workflow", "orchestrazione" — mai tradotto "prompt" o "token". Il codice linguistico segnala appartenenza alla community.
+- **Assenza di musica o sottofondo leggero lo-fi:** I contenuti tecnici ad alto score tendono al silenzio o ambient minimalista. La competenza non ha bisogno di soundtrack.
 
 ---
 
 ### Funnel/CTA pattern ricorrenti
 
-- **Bio link come destination unica** con CTA verbale nel video: *"link in bio per il workflow completo"* — il contenuto è teaser, non tutorial completo
-- **Lead magnet a file/template:** il workflow scaricabile (JSON, prompt template, script) è la leva di acquisizione più frequente — non corso, non call, ma artefatto tangibile
-- **Manychat trigger implicito:** alcuni contenuti (Higgsfield) usano il commento come trigger per DM automation — il contenuto chiede di commentare una keyword per ricevere il materiale
-- **Funnel a 2 step:** contenuto IG → DM con link → landing page o Gumroad — il passaggio intermedio è sempre personalizzato (non link diretto nel post)
-- **Assenza di CTA hard sell:** nessun contenuto analizzato usa *"compra ora"* o pricing esplicito nel video — la vendita avviene downstream
+- **Comment-to-DM (≈26% dei contenuti taggati esplicitamente):** Parola chiave nei commenti → DM automatizzato con risorsa. Meccanismo ricorrente su contenuti open-source e tool list.
+- **GitHub repo come lead magnet tecnico:** Link al repository = prova di competenza + raccolta di follower qualificati (star = micro-conversione).
+- **"Mando il link a chi commenta X":** Variante italiana del comment-to-DM, abbassa la soglia di azione perché non richiede click su link esterno.
+- **Academy come destinazione dichiarata:** Tag `academy-content` e `academy` ricorrono su contenuti architetturali (knowledge graph, tool agnosticism, AIOS) — Mirco usa i contenuti più profondi come preview dell'Academy.
+- **Zero Labs come sandbox pubblica:** Contenuti `zero-labs` funzionano come dimostrazione live del capability stack — non vendono direttamente ma costruiscono trust tecnico pre-vendita.
 
 ---
 
 ### Top 3 tool/framework menzionati
 
-1. **Claude (Anthropic)** — presente in ≈70% dei contenuti come orchestratore primario o reasoning layer; usato sia in modalità API/Code che tramite MCP
-2. **Multi-agent frameworks (Swarm/Paperclip/architetture custom)** — il concetto di orchestrazione gerarchica o parallela è il framework narrativo più ricorrente, indipendentemente dal tool specifico
-3. **Apify + MCP** — coppia ricorrente per web scraping e lead generation in linguaggio naturale; segnale di interesse specifico di Mirco per automazione dati senza codice
+1. **Claude / Claude Code** — presente in ≈68% dei contenuti, sia come runtime che come interfaccia agent principale.
+2. **MCP (Model Context Protocol)** — compare in workflow ads, web scraping, orchestrazione. Segnala interesse per lo strato di integrazione più che per il modello.
+3. **Playwright / Browser Automation** — ricorre in almeno 3 contenuti distinti, sempre accoppiato a Claude. Pattern: agent che naviga il web senza API = automazione orizzontale infinita.
 
 ---
 
 ### Applicabilità al portfolio Mirco
 
-- **Studios** (score medio: 8.5/10): altissima rilevanza — i pattern multi-agent e workflow automatizzati sono esattamente il servizio vendibile a clienti B2B; i casi studio MikeOS/legal sono blueprint diretti per verticali specifici
-- **Agent Tax** (score medio: 9/10): core topic — ogni contenuto di questo cluster è potenzialmente fuel per Agent Tax; il frame "non-programmatore che distrugge unicorni" è il posizionamento stesso del prodotto
-- **0 LABS** (score medio: 8/10): alta rilevanza — Higgsfield CLI e workflow video-automation (Claude Code + Remotion) sono direttamente nel dominio 0 LABS; il CLI-as-visual è un'estetica compatibile
-- **Academy** (score medio: 7.5/10): buona rilevanza — i workflow replicabili sono naturalmente convertibili in moduli didattici; attenzione a non appiattire su tutorial generico (il pattern vuole *dimostrazione*, non spiegazione)
-- **Funnel IG** (score medio: 9/10): massima rilevanza — il 55% dei contenuti ha funnel IG embedded; i meccanismi Manychat e 2-step funnel sono replicabili direttamente sulla distribuzione dei brand
+- **Studios** (score medio 9.2/10): Altissima. Workflow AI per ads creative, generazione video, analisi competitor Meta — tutto direttamente monetizzabile come servizio agency.
+- **Agent Tax** (score medio 8.6/10): Alta. Contenuti su prompt injection, security, knowledge graph e architetture di memoria sono esattamente il materiale editoriale di Agent Tax.
+- **0 LABS** (score medio 8.8/10): Alta. Open-source, CLI, browser automation, Playwright — 0 LABS è il posto dove questi esperimenti vivono come showcase tecnico.
+- **Academy** (score medio 8.1/10): Alta ma selettiva. Solo contenuti architetturali (AIOS, tool agnosticism, memory, orchestrazione) — non tutto il topic va in Academy, solo il layer concettuale.
+- **Funnel IG** (score medio 9.4/10): Massima. Comment-to-DM, repo GitHub come lead magnet, "100 X in Y secondi" — il topic è il miglior performer del funnel organico di Mirco.
 
 ---
 
 ### Idee replicabili sui brand del portfolio
 
-1. **001 Abbigliamento — "42 agenti per lanciare una collezione senza agenzia":** workflow multi-agent che automatizza brief → copy → visual → scheduling di una capsule collection. Il numero di agenti è la hero visual. Dimostra che un brand fashion DTC può fare il lavoro di un'agenzia creativa con uno stack AI orchestrato. CTA: template del workflow scaricabile via DM.
+1. **001 Abbigliamento — "L'agente che crea il drop prima che tu lo pensi":** Workflow AI che analizza trend TikTok/Instagram, genera concept grafici del prossimo drop e produce copy per il lancio — tutto da un prompt. Format: screen recording del workflow in real-time, hook "il tuo prossimo drop esiste già". CTA: comment-to-DM per ricevere il template.
 
-2. **Cuore Italiano Tessile — "Un non-commerciale genera 100 lead B2B in 2 ore con Claude + Apify":** replicare il pattern MikeOS applicato al tessile — uno dei collaboratori di Cuore Italiano (senza background tech) usa lo scraping in linguaggio naturale per identificare buyer europei. Il before/after è il contenuto. Rafforza il posizionamento di Agent Tax come infrastruttura per PMI manifatturiere.
+2. **Cuore Italiano Tessile — Agent per qualificazione lead B2B senza CRM umano:** Claude Routine che risponde a richieste di campionatura, qualifica il buyer (volume, mercato, urgenza) e schedula call — 24/7, zero operatori. Format: dashboard mission control del processo, angolo "PMI italiana che non può permettersi un sales team". Direttamente collegabile al caso studio MikeOS.
 
-3. **Gabriella G Luxury — "Workflow brand-to-creatives: da un brief di lusso a 50 asset in 20 minuti":** replicare il pattern Workflow AI Brand-to-Creatives (raph__ai) adattato al luxury. Claude analizza il brand book di Gabriella G, genera copy multilingual, passa a image gen per visual. Il formato mostra il workflow live, output finale è la prova. Posiziona 0 LABS come partner creativo per luxury brand con AI production pipeline.
+3. **Gabriella G Luxury — Scraping competitivo su brand luxury per pricing intelligence:** Claude + Apify che monitora prezzi e disponibilità di competitor (Brunello, Loro Piana tier) e genera report settimanale automatico. Format: output del report come prova sociale di intelligenza operativa, angolo "così i luxury brand sanno sempre dove sono nel mercato".
 
 ---
 
 ### Contro-esempi · cosa NON replicare
 
-- **Higgsfield CLI urgency=0:** i 5 contenuti Higgsfield hanno score 10/10 ma urgency 0 — segnale che il format CLI puro, senza narrativa umana o risultato business misurabile, non converte in azione immediata. Evitare contenuti che mostrano tool per il tool senza outcome aziendale esplicito.
-- **Tutorial step-by-step senza numero/claim d'apertura:** nessuno dei contenuti top performer inizia con una spiegazione — iniziano tutti con un risultato o un numero impossibile. Evitare il formato "oggi vi spiego come funziona X" senza hook numerico o identitario.
-- **Generic AI hype senza stack specifico:** il pattern che funziona è sempre *tool A + tool B + output quantificato*. Contenuti vaghi del tipo "gli agenti AI cambieranno tutto" non compaiono nella selezione di Mirco — segnale che li filtra attivamente.
+- **Demo di agenti senza output misurabile:** Contenuti che mostrano "l'agente che risponde" senza un numero di risultato finale non entrano nella selezione di Mirco — evitare format "guarda cosa sa fare" senza proof of value.
+- **Hype su modelli non-Claude:** Nessun contenuto GPT-4o, Gemini o Llama è entrato nella selezione con score alto. Costruire contenuti AI-agnostic diluirebbe il posizionamento Claude-first che Mirco sta consolidando.
+- **Spiegazioni architetturali pure senza caso d'uso concreto:** Il knowledge graph content funziona perché è agganciato a "come migliorare la memoria AI" — non come spiegazione teorica. I contenuti accademici puri (no applicazione) non raggiungono P0.
 
 ---
 
 ### Urgenza media e tempo implementazione tipico
 
-- **Urgency score medio:** 7.1/10 (escludendo i 5 Higgsfield a urgency=0 → 8.7/10 sui contenuti con urgency valorizzata)
-- **Interpretazione:** il cluster è ad alta priorità operativa per Mirco — non contenuto ispirazionale ma blueprint da implementare
-- **Time-to-implement tipico:** 3–7 giorni per un workflow dimostrabile (screen recording + voiceover); 1–2 giorni per replicare format hook+numero su un caso studio già esistente nel portfolio
+- **Urgency score medio:** 8.1/10 — il topic è percepito come *finestra temporale stretta*. Mirco salva con urgenza sistematicamente alta, segnale che considera questo topic in rapida saturazione.
+- **Time-to-implement tipico:** 3-7 giorni per contenuto singolo (workflow demo + reel + CTA automazione). Per sequenze funnel complete (contenuto → comment-to-DM → nurture) stimare 10-14 giorni. I contenuti 0 LABS con Playwright o CLI richiedono 1-2 settimane di setup tecnico prima del content.
 
 ---
 
 ### Riferimenti top 5
 
-1. **"Workflow AI a due stadi: 100 ads da un prompt con Claude + image gen"** · byjoeym — score 10/10, massimo per workflow concreto e output quantificato
-2. **"Claude Routines: agenti AI autonomi 24/7 per automatizzare il business"** · nicholas.puru — score 10/10, massimo per automazione business continua e funnel IG
-3. **"Claude + Apify: web scraping in linguaggio naturale senza codice"** · luigi_di_blippd — score 10/10, esemplare per accessibilità tecnica e lead generation
-4. **"MikeOSS: un non-programmatore distrugge unicorni legali in 2 settimane con AI"** · simorizzo_ai — P0, massimo per narrativa identitaria e disruption verticale
-5. **"42 agenti AI in gerarchia per automatizzare un intero reparto vendite"** · alassafi.ai — esemplare per multi-agent hierarchy e applicabilità B2B diretta
+1. **"Dashboard Mission Control: orchestrare agenti AI per business e vita personale"** · tenfoldmarc — archetipo del format orchestrazione, score 10/10, massima densità visiva e funnel.
+2. **"Workflow AI end-to-end per ads: analisi competitor, generazione video e ottimizzazione"** · higgsfield.ai — miglior esempio di AI agent applicato direttamente al core business Studios.
+3. **"50 skill open-source per potenziare Claude Code in 60 secondi"** · sferro.ai — archetipo del funnel comment-to-DM su contenuto tecnico, replicabile identico per 0 LABS.
+4. **"MikeOS: un non-dev crea alternativa open-source ad Harvey da $11 miliardi"** · simorizzo_ai — frame narrativo più potente del topic, protagonista non-tecnico + risultato impossibile.
+5. **"Come il codice Morse ha ingannato un agente AI e svuotato un wallet crypto"** · brainfood.it — contenuto Agent Tax per eccellenza, angolo sicurezza con hook da thriller.
 
 ---
 
-⚠️ Generated automaticamente. Confidence=medium significa che pattern hanno indicazioni emergenti. Modificare manualmente solo aggiungendo annotazioni in fondo, non riscrivendo il body.
+⚠️ Generated automaticamente. Confidence=high significa che pattern hanno solidità statistica. Modificare manualmente solo aggiungendo annotazioni in fondo, non riscrivendo il body.
