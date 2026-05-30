@@ -1,115 +1,115 @@
 ## Pattern · ai-agents
 
-**Confidence:** high (N=51)
-**Last build:** 2026-05-28T02:09:07Z
+**Confidence:** high (N=54)
+**Last build:** 2026-05-30T02:00:13Z
+
+---
 
 ### Cosa accumuna i contenuti che Mirco salva su questo topic
 
-1. **Knowledge infrastructure come asset strategico** (~60% dei contenuti): Mirco salva ossessivamente contenuti su come strutturare memoria persistente, knowledge graph, RAG e document parsing per agenti AI. Non è interessato agli agenti "di consumo" ma all'infrastruttura che li rende durevoli e scalabili. Pattern ricorrente: KB personale → agente potenziato → vantaggio competitivo compounding.
+1. **Output economico misurabile come proof point** (~40% dei contenuti): Mirco salva sistematicamente contenuti che associano un agente AI a un risultato concreto in dollari, tempi o zero-risorse umane (es. $1.240 in 7 giorni, siti da $10k con una riga, startup $30M zero dipendenti). Il valore non è astratto — è sempre monetizzato o quantificato.
 
-2. **Claude/Claude Code come stack preferenziale** (~55% dei contenuti): Claude (Anthropic) domina il corpus. Claude Code, Claude Skills, Claude Ultrareview, Book-to-Skill con Claude. Mirco non è tool-agnostic nell'interesse editoriale: ha una preferenza statistica chiara per l'ecosistema Anthropic vs OpenAI/altri.
+2. **Knowledge architecture come differenziatore** (~25% dei contenuti): forte clustering attorno a knowledge base, knowledge graph, memoria persistente, RAG, document parsing. Mirco considera la struttura del dato il vero "moat" dell'agente — non il modello, ma ciò che il modello sa. Pattern ricorrente: simorizzo\_ai appare 5+ volte su questo asse.
 
-3. **Multi-agent e orchestrazione come tema emergente** (~35% dei contenuti, fortemente pesato su recency alta): I contenuti più recenti convergono su architetture multi-agente — dashboard mission control, agenzia AI su server, orchestrazione parallela. Il singolo agente è già "dato", il pattern nuovo è la coordinazione tra agenti.
+3. **Multi-agent e orchestrazione come formato aspirazionale** (~20% dei contenuti): contenuti su dashboard mission control, agenzia AI su server singolo, Cofounder 2, Claude Ultrareview. Il framing è sempre "una persona che controlla molti agenti" — solopreneur/operator, non developer.
 
-4. **Funnel IG integrato nel contenuto tecnico** (~45% dei contenuti taggati funnel-ig o comment-to-dm): Mirco non salva solo per apprendere ma per replicare il meccanismo di distribuzione. I contenuti tecnici sono quasi sempre wrapper di un funnel: hook → demo → CTA link/DM. L'utilità pedagogica e la macchina commerciale sono indistinguibili.
+4. **Claude come stack tecnologico preferito** (~55% dei contenuti taggano claude, claude-code o claude-skills): non è neutralità tecnologica — è una scelta editoriale netta. Mirco filtra verso l'ecosistema Anthropic come default operativo.
 
-5. **Solopreneur/agency model come frame narrativo dominante**: Il protagonista implicito dei contenuti salvati è sempre uno/pochi che fanno il lavoro di molti tramite agenti. "Intera azienda con agenti", "agenzia AI 2026 su un server", "dashboard per business e vita personale". Mirco salva storie di leverage individuale, non di enterprise adoption.
+5. **Automazione end-to-end come formato narrativo** (~30% dei contenuti): il pattern salvato non è "usa l'AI per X" ma "l'AI fa tutto da sola — dall'input al publish, dall'analisi alla creatività". Il loop completo è il valore comunicativo.
 
 ---
 
 ### Visual signature ricorrenti
 
-- **Palette**: Dark mode dominante (sfondi neri/navy), accenti neon/cyan per highlight di codice o dashboard. Quando appare colore vivido è per isolare un numero o una CTA. I contenuti light mode sono minoritari e tipicamente da creator academy.
-- **Framing**: Split-screen frequente (codice a sinistra, output/demo a destra). Dashboard UI reali, non mockup. Screen recording del terminale con overlay testo è lo standard.
-- **Typography**: Font monospaced per codice, sans-serif bold per titoli overlay. Numeri grandi in primo piano ("$10k", "50 skills", "100 agenti") per ancoraggio valore immediato.
-- **Motion**: Scroll veloce su repository/file system, typing animato nel terminale, zoom su output finale. Nessun motion grafico decorativo — tutto il movimento è funzionale alla demo.
-- **Format prevalente**: Carousel statico per contenuti educativi/academy; video screen-recording per demo tool; immagine singola con testo overlay per annunci/lancio.
+- **Palette:** dark background dominante (nero/grigio scuro) con accenti neon — verde lime, cyan, bianco puro. Contrasto alto come segnale di "tech serio ma accessibile".
+- **Font:** sans-serif bold per headline numeriche (dollari, percentuali, tempi), monospace per codice/output terminale — codice visibile come prova di autenticità.
+- **Framing:** schermo-nel-video (screen recording + face cam in angolo basso) o full screen demo. Il codice che gira in tempo reale è il frame principale, non la persona.
+- **Motion:** transizioni taglienti, niente dissolve — cut diretto tra prompt e output. Velocità alta nei primi 3s per catturare attenzione su scroll.
+- **Dashboard aesthetic:** interfacce custom (Obsidian, terminale, browser automation) riprese come "war room" — centralizzazione visiva del controllo.
 
 ---
 
 ### Hook style ricorrenti
 
-- **Numero + claim impossibile** (pattern più frequente): "50 skill open-source in 60 secondi", "100 agenti gratis", "siti da $10k con una riga". Il numero è sempre specifico e la promessa è sempre asimmetrica rispetto allo sforzo.
-- **Scenario futuro già presente**: "Agenzia AI 2026: intera struttura su un server" — frame il futuro come già accessibile oggi, crea urgency senza hype esplicito.
-- **Problema riconoscibile + soluzione non ovvia**: "Il tuo agente dimentica tutto → knowledge graph persistente". Prima panel = pain, seconda panel = pivot cognitivo.
-- **Demo silenzioso**: I video iniziano direttamente sull'output (il cartone animato già pubblicato, il sito già generato) senza introduzione verbale. L'utente vede il risultato prima di capire come è stato ottenuto.
+- **Numero shock + zero umani** → *"Startup da $30M gestita da AI agent con zero dipendenti"* — formula: [metrica impossibile] + [assenza risorsa costosa]
+- **Income claim temporizzato** → *"$1.240 in 7 giorni"*, *"sito da $10k con una riga"* — formula: [risultato economico] + [tempo compresso] o [effort minimo]
+- **Prodotto finito da un prompt** → *"da un prompt → cartone animato pubblicato"*, *"da analisi a pubblicazione"* — formula: [input minimo] → [output completo professionale]
+- **Comparazione prima/dopo implicita** → non mostrata esplicitamente, ma costruita linguisticamente: "prima ci volevano X persone / X ore / X budget"
 
 ---
 
 ### Voice/audio pattern ricorrenti
 
-- **Energia medio-alta ma controllata**: Nessun creator urla o usa hype vocale da dropshipping. Il tone è da "collega senior che ti mostra qualcosa di utile" — entusiasmo tecnico, non entertainment.
-- **Ritmo rapido con pause strategiche**: Narrazione veloce durante la demo, pausa marcata prima della CTA o del numero chiave. La pausa segnala "questo è il punto che devi ricordare".
-- **Italiano e inglese misti**: I creator italiani (simorizzo\_ai, giustomuh.dev, gianma.ai) parlano in italiano ma con terminologia tecnica in inglese non tradotta. Nessun tentativo di italianizzare i termini tecnici.
-- **Voiceover su screen recording** come formato prevalente vs faccia in camera. Il volto appare raramente — il prodotto/output è il protagonista visivo.
+- **Ritmo:** veloce nei primi 5s (hook denso), poi rallenta su spiegazione tecnica — curva a V invertita sull'energia.
+- **Prosody:** voce piana-autorevole, non entusiasta da marketer. Il tono è "ti sto mostrando qualcosa che funziona" non "devi assolutamente vedere questo". Credibilità > hype.
+- **No musica invasiva** nei tutorial tecnici — silenzio o ambient sottile, il suono del terminale/click come sound design.
+- **Italiano con anglicismi tecnici non tradotti:** agent, workflow, prompt, knowledge base — mai tradotti, usati come segnali di appartenenza alla comunità tech.
+- **Micro-pausa prima del reveal dell'output** — pattern narrativo ricorrente: setup → pausa → boom visivo del risultato.
 
 ---
 
 ### Funnel/CTA pattern ricorrenti
 
-- **Comment-to-DM via ManyChat** (~30% dei contenuti): "Commenta X per ricevere il link". Funziona su contenuti con risorsa scaricabile (repo, skill pack, template). Mirco lo salva sistematicamente — segnale che vuole implementarlo o lo usa già.
-- **Link in bio con lead magnet tecnico**: Repository GitHub, template Obsidian, skill pack Claude. Il lead magnet è sempre tangibile e immediatamente utilizzabile — non un PDF generico.
-- **Academy/corso come destinazione**: Diversi contenuti taggati academy-content usano il contenuto IG come demo del valore che si ottiene nel programma full. Il post gratuito è il trailer del prodotto a pagamento.
-- **Zero Labs come sandbox pubblica**: Il tag zero-labs ricorre su contenuti che mostrano esperimenti/tool costruiti da Mirco stesso — funnel che converte curiosità tecnica in credibilità di agenzia.
-- **Agent Tax positioning**: Contenuti che educano sul valore dell'infrastruttura dati per agenti — posizionano implicitamente Mirco come il consulente che aiuta a costruirla.
+- **Comment-to-DM automatizzato** (~20% dei contenuti taggano comment-to-dm o manychat): CTA esplicita "commenta X per ricevere il link" — funnel low-friction su IG.
+- **Repo GitHub open-source come lead magnet** (~15%): il codice pubblico è il gancio, il DM o la newsletter è la conversione.
+- **Demo → link in bio** → corso/tool/waitlist: il video è sempre top-of-funnel per un prodotto esistente o in costruzione.
+- **Tag funnel-ig** presente in ~35% dei contenuti: Mirco salva questi post specificamente come template di meccanica IG, non solo per il contenuto tecnico.
+- **Zero CTA verbale nei contenuti più performanti** — il valore del contenuto è così denso che la CTA è implicita (link in bio basta).
 
 ---
 
 ### Top 3 tool/framework menzionati
 
-1. **Claude / Claude Code** (Anthropic) — presente in ~55% dei contenuti. Stack preferenziale dichiarato. Claude Code per automazione, Claude Skills per knowledge, Claude Ultrareview per multi-agent.
-2. **Knowledge Graph / RAG** — architettura ricorrente in ~40% dei contenuti. Implementazioni: Graphify, Mirage, memory architecture con grafo vs liste flat.
-3. **Playwright + MCP** — browser automation e Model Context Protocol compaiono in cluster recente (~25% dei contenuti pesati per recency). Segnala interesse crescente per agenti che interagiscono con il web reale.
+1. **Claude / Claude Code / Claude Skills** — citato in ~55% dei contenuti. Stack principale per agenti, code review, browser automation, knowledge base.
+2. **n8n** — workflow automation no-code/low-code, citato in outreach B2B e automazioni end-to-end. Hub di orchestrazione preferito per chi non vuole scrivere tutto da zero.
+3. **Playwright** — browser automation per agenti web. Citato specificamente in coppia con Claude Code per agenti che navigano e agiscono sul web.
+
+*Menzione forte:* **Obsidian** come command center personale + **MCP (Model Context Protocol)** come layer di integrazione emergente.
 
 ---
 
 ### Applicabilità al portfolio Mirco
 
-- **Studios** (score medio 7/10): Applicabile per posizionare 0 Identity come agenzia che usa agenti AI internamente — content production automatizzata, code review multi-agent, dashboard operativa. Credibilità tecnica visibile.
-- **Agent Tax** (score medio 9/10): Questo topic È Agent Tax. Quasi ogni contenuto è direttamente monetizzabile come consulenza infrastruttura dati + agenti. Knowledge graph, RAG, SIaS sono il prodotto.
-- **0 LABS** (score medio 9/10): Zero Labs è il laboratorio dove questi pattern vengono dimostrati pubblicamente. Browser automation, CLI tools, skill pack — tutto il cluster zero-labs è già operativo come funnel credibilità.
-- **Academy** (score medio 8/10): Knowledge base, tool agnosticism, agent harness, knowledge graph vs liste — sono tutti moduli formativi già strutturati dai creator che Mirco salva. L'Academy ha curriculum implicito pronto.
-- **Funnel IG** (score medio 9/10): Il 45% dei contenuti ha meccanismo funnel esplicito replicabile. Comment-to-DM, lead magnet tecnico, demo-to-corso sono i tre pattern dominanti e tutti trasferibili 1:1.
+- **Studios** (score medio 8.5/10): applicabilità altissima — gli agenti AI sono il prodotto/servizio core. Ogni pattern qui è direttamente monetizzabile come case study o deliverable.
+- **Agent Tax** (score medio 9/10): questo topic È Agent Tax. I pattern su knowledge graph, memoria persistente, agent-tax tag esplicito in ~15% dei contenuti. Massima rilevanza editoriale.
+- **0 LABS** (score medio 8/10): zero-labs appare in ~20% dei tag. I contenuti tecnici hands-on (Playwright, CLI, browser automation) sono la materia prima dei tutorial Labs.
+- **Academy** (score medio 7.5/10): academy-content tag presente — i pattern su knowledge base, tool agnosticism, memory architecture sono perfetti per moduli formativi. Richiede adattamento didattico.
+- **Funnel IG** (score medio 8.5/10): funnel-ig tag in ~35% dei contenuti. Questo topic è uno dei più fertili per meccaniche IG (comment-to-dm, demo brevi, income claim).
 
 ---
 
 ### Idee replicabili sui brand del portfolio
 
-1. **001 Abbigliamento — Agente AI per stile personalizzato**: Costruire (e mostrare pubblicamente su IG) un agente Claude che, dato il guardaroba fotografato dall'utente, suggerisce outfit basati su stagione/occasione. Demo screen-recording stile zero-labs. CTA: "Commenta STILE per ricevere il workflow". Replica esatta del pattern demo-autonomo → comment-to-DM.
+1. **001 Abbigliamento — "L'agente che gestisce il guardaroba":** workflow AI che analizza gli ordini storici del cliente, suggerisce i prossimi acquisti stagionali e invia outreach personalizzato zero-touch. Format: screen recording dell'agente in azione + revenue generata in 7 giorni. Replica diretta del pattern lasthumannode adattato al fashion DTC.
 
-2. **Cuore Italiano Tessile — Knowledge Graph dei tessuti come asset commerciale**: Convertire il catalogo tessuti/specifiche tecniche in una knowledge base strutturata (grafo) interrogabile da un agente. Contenuto IG: "Come abbiamo dato memoria permanente al nostro catalogo B2B con AI". Posiziona Cuore Italiano come azienda tessile più avanzata tecnologicamente — differenziazione non di prodotto ma di infrastruttura. Replica il pattern SIaS/data-moat.
+2. **Cuore Italiano Tessile — Knowledge Base del tessuto italiano:** costruire (e comunicare) una knowledge base strutturata su certificazioni, filiere, storici di produzione — posizionata come il "cervello" che nessun competitor ha. Format: video stile simorizzo\_ai su come i documenti tecnici del tessile diventano memoria dell'agente. CTA: accesso alla KB per partner/buyer tramite DM.
 
-3. **Gabriella G Luxury — Dashboard Mission Control per collezione capsule**: Mostrare come un singolo operatore gestisce lancio collezione, PR outreach, inventory e contenuto social tramite dashboard agenti orchestrati. Narrativa "luxury solopreneur" — replica esatta del pattern "intera azienda su un server" ma nel contesto moda lusso. Appeal editoriale alto, virabilità su pubblico imprenditoria creativa.
+3. **Gabriella G Luxury — Dashboard Mission Control per il brand manager:** mostrare come un singolo brand manager con agenti AI orchestra contenuto, PR outreach, analisi competitor e calendario editoriale — senza team. Format: dashboard aesthetic (Obsidian/custom), tono autorevole-piano, hook "come gestire un brand luxury da soli nel 2026".
 
 ---
 
 ### Contro-esempi · cosa NON replicare
 
-- **Contenuti LLM benchmark puri** (es. "Claude 3.5 Sonnet nuovo benchmark"): Basso differenziale, saturati, nessun meccanismo funnel. Mirco li salva per monitoraggio ma il pattern non genera engagement qualificato.
-- **Security/prompt injection senza CTA** (es. codice Morse che svuota wallet): Interessante editorialmente ma non convertono — topic paura senza soluzione vendibile chiara. Da usare solo come hook per contenuto più ampio con exit educativa.
-- **Demo troppo tecniche senza output visibile**: I contenuti che mostrano solo codice senza un output "wow" finale (es. agente che pubblica un cartone animato, sito da $10k) performano meno. L'output visibile è obbligatorio, non opzionale.
+- **Hype senza demo tecnica reale:** contenuti che citano cifre ($30M, $1.240) senza mostrare almeno uno screenshot/screen recording del sistema vengono salvati ma hanno urgency più bassa — Mirco preferisce la prova visiva al claim nudo.
+- **Tutorial generico su ChatGPT/GPT-4:** zero contenuti salvati con OpenAI come stack principale. Il mercato GPT-tutorial è saturo e non rispecchia il posizionamento editoriale di Mirco — evitare come format primario.
+- **Long-form talking head senza output visivo:** i contenuti salvati sono quasi tutti demo-first. Il formato "persona che spiega a camera per 3 minuti senza schermo" è assente dalla selezione — non è il segnale che Mirco vuole replicare.
 
 ---
 
 ### Urgenza media e tempo implementazione tipico
 
-**Urgency score medio**: 7.8/10 — Alta ma non emergenziale. Il cluster è in crescita rapida (recency alta sui contenuti P0) ma non ancora saturo sul mercato italiano.
-
-**Time-to-implement tipico**:
-- Contenuto singolo demo (screen-recording agente): 2–4 ore
-- Workflow comment-to-DM con lead magnet tecnico: 1–2 giorni (setup ManyChat + risorsa)
-- Modulo Academy da contenuti già curati: 1 settimana (curriculum è già implicito nel corpus)
-- Infrastruttura Agent Tax completa (KB + grafo + agente client): 2–4 settimane per primo cliente
+- **Urgency score medio:** 7.9/10 — questo topic è percepito come ad alta velocità di obsolescenza. I contenuti salvati comunicano "fai ora o resti indietro".
+- **Time-to-implement tipico:** 3–7 giorni per contenuto singolo (demo + editing + funnel). I workflow mostrati nei contenuti sono replicabili in 1–2 giorni per chi ha già lo stack. Setup knowledge base/knowledge graph: 1–2 settimane per prima versione funzionale.
 
 ---
 
 ### Riferimenti top 5
 
-1. **"Come costruire una knowledge base personale per potenziare gli agenti AI"** · simorizzo\_ai — contenuto P0 score 10/10, rappresenta il cuore del pattern KB-as-infrastructure
-2. **"Dashboard Mission Control: orchestrare agenti AI per business e vita personale"** · tenfoldmarc — P0 score 10/10, template narrativo perfetto per zero-labs e Studios
-3. **"Dal SaaS al SIaS: costruire ambienti dati per agenti AI"** · lostandlucky — urgency 8/10, foundation teorica dell'Agent Tax positioning
-4. **"50 skill open-source per potenziare Claude Code in 60 secondi"** · sferro.ai — P0 score 10/10, esempio canonico di funnel comment-to-DM con lead magnet tecnico
-5. **"Agente AI autonomo per content marketing: da analisi a pubblicazione"** · higgsfield.ai — P0 score 10/10 urgency 9/10, demo end-to-end replicabile per Studios e clienti agenzia
+1. **"Come costruire una knowledge base personale per potenziare gli agenti AI"** · simorizzo\_ai — archetipo del pattern knowledge architecture, score 10/10, massima densità informativa.
+2. **"Agente AI autonomo genera $1.240 in 7 giorni con outreach B2B zero-touch"** · lasthumannode — archetipo del pattern income claim + automazione end-to-end, P0, funnel completo.
+3. **"Dashboard Mission Control: orchestrare agenti AI per business e vita personale"** · tenfoldmarc — archetipo del pattern orchestrazione solopreneur, score 10/10, visual signature più replicabile.
+4. **"Agente AI crea cartone animato e lo pubblica autonomamente da un prompt"** · higgsfield.ai — archetipo del pattern input minimo → output professionale completo, urgency 9/10.
+5. **"Dal SaaS al SIaS: costruire ambienti dati per agenti AI"** · lostandlucky — contenuto più strategico/macro del set, introduce il concetto di data moat e agent-tax come framework mentale.
 
 ---
 
