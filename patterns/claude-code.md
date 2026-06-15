@@ -1,82 +1,114 @@
 ## Pattern · claude-code
 
-**Confidence:** low (N=6)
-**Last build:** 2026-05-18T11:23:28Z
-
-### Cosa accumuna i contenuti che Mirco salva su questo topic
-
-1. **Infrastruttura DIY per accesso remoto** (3/6 contenuti, 50%): forte attrazione verso soluzioni self-hosted che estendono Claude Code oltre l'ambiente desktop standard — ngrok + ttyd + Caddy come stack ricorrente per terminale remoto da mobile.
-2. **Abbassamento delle barriere operative** (4/6 contenuti, ~67%): il tema unificante è rendere Claude Code utilizzabile ovunque e da chiunque — da smartphone, senza onboarding lungo, senza infrastruttura complessa. Mirco salva contenuti che democratizzano l'accesso.
-3. **Sistematizzazione agentica** (3/6 contenuti, 50%): interesse per architetture più astratte — Orchestration Layer, Agentic OS — che usano Claude Code come runtime dentro sistemi più ampi (Obsidian, GitHub, skill library). Non solo tool, ma OS cognitivo.
-4. **Score uniformemente alto (9-10/10)** su tutti i contenuti: nessun contenuto salvato è "interessante ma non urgente". Il topic è percepito da Mirco come strategico e time-sensitive, non esplorativo.
-5. **Creator ricorrente: olivia.inthecity** (3/6 contenuti): Mirco segue e salva sistematicamente questa creator — probabile riferimento editoriale per format tecnico-pratico su questo topic.
-
-### Visual signature ricorrenti
-
-- **Palette**: dark mode dominante (terminale nero/verde o grigio scuro), accenti neon — coerente con estetica hacker/developer tool
-- **Font**: monospace per snippet di codice a schermo, sans-serif pulito per titoli overlay
-- **Framing**: screen recording del terminale + overlay faccia creator in piccolo (formato "tutorial documentario"), oppure schermo smartphone tenuto in mano come proof-of-concept
-- **Motion**: cut veloci tra terminale e risultato finale, nessun slow-motion — ritmo da tutorial pragmatico, non da content aspirazionale
-- **Testi overlay**: comandi CLI mostrati letteralmente a schermo, non nascosti — trasparenza tecnica come elemento di fiducia
-
-### Hook style ricorrenti
-
-- **"Puoi fare X da Y"** dove X = cosa potente e Y = contesto inaspettato (smartphone, remoto, senza computer) — hook basato su dissonanza situazionale
-- **Dimostrazione immediata**: i primi 2-3 secondi mostrano già il risultato funzionante, poi si spiega come — struttura inversa rispetto al tutorial classico
-- **Problema implicito risolto**: nessun hook esplicita il problema, lo assume condiviso ("se usi Claude Code sai già perché vuoi questo")
-
-### Voice/audio pattern ricorrenti
-
-- **Energia**: medio-alta, tono tecnico ma accessibile — non accademico, non hype vuoto
-- **Ritmo**: rapido, poche pause, parla mentre mostra — no silenzio pedagogico
-- **Prosody**: voce italiana con cadenza da "collega esperto che spiega al collega curioso", non da influencer né da professor
-- **Audio**: voiceover diretto senza musica di sottofondo nei momenti tecnici chiave; eventuale musica solo sulle transizioni
-
-### Funnel/CTA pattern ricorrenti
-
-- **Link in bio a stack/repo**: la CTA naturale è "trovi tutto linkato" — conversione verso risorsa tecnica, non verso prodotto
-- **"Salvalo per dopo"**: contenuti strutturati come riferimento da rivedere, non da consumare una volta — incoraggiano il save più del like
-- **Nessun funnel esplicito** nei contenuti salvati: il topic claude-code in questa KB non ha CTA commerciali evidenti — è content di posizionamento/authority, non di conversione diretta
-
-### Top 3 tool/framework menzionati
-
-1. **ngrok** — tunneling per esporre terminale locale su internet (3 menzioni)
-2. **ttyd** — terminal-over-web, rende il terminale accessibile via browser/mobile (3 menzioni)
-3. **Caddy** — reverse proxy leggero come strato di sicurezza/autenticazione (2 menzioni) · menzione alternativa: **Obsidian + GitHub** nell'architettura Agentic OS (1 menzione ciascuno)
-
-### Applicabilità al portfolio Mirco
-
-- **Studios** (score medio 8.5/10): altissima. Claude Code come tool operativo interno per sviluppo agenti, automazioni client, prototipazione rapida. Stack remoto da mobile = operatività aumentata.
-- **Agent Tax** (score medio 7/10): media-alta. Il pattern "onboarding da settimane a giorni" è direttamente replicabile come caso d'uso vendibile. Orchestration Layer è framework concettuale utile per posizionare l'offerta.
-- **0 LABS** (score medio 9/10): massima. 0 LABS è il contenitore naturale per sperimentare Agentic OS e skill library su Claude Code — i contenuti più astratti (Chase, simorizzo_ai) mappano qui.
-- **Academy** (score medio 8/10): alta. Il contenuto "onboarding tecnico con AI" è esplicitamente taggato academy-content. Tutorial su stack ngrok+ttyd+Claude Code = modulo pratico ad alto valore percepito.
-- **Funnel IG** (score medio 6/10): media. Il topic è tecnico-denso per IG generalista, ma il format "da smartphone" abbassa la barriera percettiva e può funzionare come hook per audience semi-tech.
-
-### Idee replicabili sui brand del portfolio
-
-1. **001 Abbigliamento — "Collezione gestita da AI"**: usare Claude Code + agentic workflow per mostrare come la gestione del catalogo, descrizioni prodotto e scheduling post vengano orchestrati da agenti. Content angle: "dietro le quinte tech di un brand moda" — dissonanza creativa/tech come hook.
-2. **Cuore Italiano Tessile — Onboarding fornitori accelerato**: replicare il pattern "da settimane a giorni" applicato all'onboarding di nuovi fornitori o agenti commerciali — Claude Code come assistente che legge documentazione tecnica tessile e risponde a domande operative. Case study reale da produrre.
-3. **Gabriella G Luxury — Agentic OS per clientela VIP**: architettura ispirata al pattern Agentic OS dove Claude Code orchestra comunicazioni personalizzate, follow-up post-acquisto e suggerimenti di stile. Angolo content: lusso + AI come amplificatore di esclusività, non sostituto del tocco umano.
-
-### Contro-esempi · cosa NON replicare
-
-- **Tutorial puramente CLI senza contesto visivo**: su IG il terminale grezzo senza overlay esplicativo perde il 90% dell'audience non-dev — serve sempre la traduzione visiva del "cosa sta succedendo"
-- **Hype architetturale senza demo**: i contenuti più astratti (Agentic OS, Orchestration Layer) hanno urgency 0/10 — funzionano come framework concettuale ma non come content ad alta conversione. Non replicare come format standalone senza proof pratica.
-- **Stack troppo specifici come contenuto principale**: ngrok+ttyd è soluzione tecnica che invecchia — usarla come hook ma non come valore centrale del contenuto, che deve restare il beneficio (lavoro da mobile, onboarding rapido).
-
-### Urgenza media e tempo implementazione tipico
-
-- **Urgency score medio**: 5.3/10 (media pesata per recency: i 3 contenuti P1 con urgency 8 pesano 1.00, i 2 con urgency 0 abbassano significativamente la media)
-- **Time-to-implement tipico**: 3-7 giorni per contenuto tecnico con demo funzionante; 1-2 giorni per reel ispirato al format "risultato prima, spiegazione dopo"; setup stack ngrok+ttyd richiede ~2-4h di configurazione una tantum prima della produzione
-
-### Riferimenti top 5
-
-1. *"Claude Code da smartphone: terminale remoto custom con ngrok e ttyd"* · olivia.inthecity
-2. *"Claude Code remote control su smartphone con ttyd, ngrok e Caddy"* · olivia.inthecity
-3. *"Claude Code su smartphone: terminale remoto fai-da-te con ngrok e ttyd"* · olivia.inthecity
-4. *"Claude Code: da settimane a giorni nell'onboarding tecnico con AI"* · evolving.ai
-5. *"Il video introduce il concetto di 'Agentic OS'…"* · Chase
+**Confidence:** low (N=9)
+**Last build:** 2026-06-15T02:04:07Z
 
 ---
 
-⚠️ Generated automaticamente. Confidence=low significa che pattern hanno segnali deboli da consolidare. Modificare manualmente solo aggiungendo annotazioni in fondo, non riscrivendo il body.
+### Cosa accumuna i contenuti che Mirco salva su questo topic
+
+1. **Skill files come unità fondamentale** — 4/9 contenuti ruotano esplicitamente attorno al concetto di "skill file" o "skill scoped a path": istruzioni contestuali che aumentano l'output di Claude Code senza modificare il modello. Mirco percepisce questo layer come leva moltiplicativa.
+
+2. **Infrastruttura DIY per accesso remoto** — 3/9 contenuti (tutti da olivia.inthecity) coprono lo stesso setup tecnico (ngrok + ttyd + Caddy) per usare Claude Code da smartphone. La triplice presenza suggerisce interesse forte verso la portabilità e l'autonomia dall'ambiente desktop.
+
+3. **Architetture sistemiche > singoli prompt** — I contenuti con score massimo (10/10 da Chase, 9/10 da simorizzo\_ai) introducono frame architetturali: "Agentic OS", "Orchestration Layer". Mirco salva visioni sistemiche, non solo tutorial tattici.
+
+4. **Accelerazione di processi lenti** — Il contenuto su onboarding (evolving.ai) e quello su frontend professionale (dariofontanel.ai) condividono la narrativa "da settimane/ore a minuti/giorni". Il pattern è: Claude Code come compressore temporale su task cognitivi costosi.
+
+5. **Prompt engineering come prodotto distribuibile** — skill files gratuiti, template condivisibili, framework replicabili. Mirco salva contenuti dove l'IP è il prompt/file, non il codice. Segnale: interesse verso monetizzazione di sistemi prompt-based.
+
+---
+
+### Visual signature ricorrenti
+
+- **Palette:** dark background (terminale/IDE nero o grigio scuro) con accenti verdi o blu elettrico — estetica hacker/dev minimalista
+- **Font:** monospace nei dettagli tecnici (codice), sans-serif pulito per i titoli overlay
+- **Framing:** screen recording del terminale o dell'interfaccia Claude, spesso picture-in-picture con il creator in basso a sinistra
+- **Motion:** cut rapidi su comandi che si eseguono, zoom su output di Claude, nessuna animazione decorativa — tutto funzionale
+- **Layout IG:** caroselli con snippet di codice o file YAML/MD su sfondo scuro; raramente video puro senza testo overlay
+
+---
+
+### Hook style ricorrenti
+
+- **"Stai usando Claude Code senza questo? Stai sprecando il 70% del suo potenziale"** — hook di deficit/loss aversion su tool già adottato
+- **Dimostrazione immediata del risultato** (output professionale nei primi 3s) poi spiegazione del come — struttura "wow → svelamento"
+- **Numero specifico + benefit concreto**: "3 skill files gratuiti", "da settimane a giorni" — quantificazione immediata del valore
+
+---
+
+### Voice/audio pattern ricorrenti
+
+- **Ritmo:** medio-alto, denso di informazioni, poche pause emotive — tono da developer che spiega a un peer
+- **Energia:** calma ma autorevole, nessun hype da influencer — credibilità tecnica come valore principale
+- **Prosody:** frasi brevi e assertive, terminologia tecnica non spiegata (presuppone audience già warm su AI dev tools)
+- **Audio ambiente:** spesso assente o musica lo-fi ambientale leggera; il suono del terminale/tastiera usato come elemento narrativo in alcuni casi
+
+---
+
+### Funnel/CTA pattern ricorrenti
+
+- **"Link in bio" per skill file gratuito** → lead magnet tecnico che cattura developer audience
+- **Commenti come accesso**: "scrivi X nei commenti per ricevere il file" — meccanismo di engagement forzato prima della distribuzione
+- **Continuazione in serie**: contenuti che si linkano (vedi tripla di olivia.inthecity sullo stesso setup) — audience building per argomento, non per singolo pezzo
+- **Nessun prodotto a pagamento esplicito** nei contenuti salvati — fase di awareness/trust building, monetizzazione implicita o indiretta
+
+---
+
+### Top 3 tool/framework menzionati
+
+1. **Claude Code** (Anthropic) — protagonista assoluto, presente in 9/9
+2. **ngrok + ttyd** — infrastruttura remota, 3/9 contenuti dedicati
+3. **Skill Files / CLAUDE.md** — pattern architetturale citato in 4/9, con Obsidian come storage in 1/9
+
+---
+
+### Applicabilità al portfolio Mirco
+
+- **Studios** (score medio 8/10): altissima — Claude Code è direttamente il core tool operativo; i pattern su skill files e orchestration sono implementabili domani
+- **Agent Tax** (score medio 7/10): alta — agentic workflows e orchestration layer sono il frame concettuale del prodotto stesso
+- **0 LABS** (score medio 9/10): altissima — lab sperimentale ideale per testare Agentic OS, skill library, remote dev via smartphone
+- **Academy** (score medio 7/10): alta — il contenuto su onboarding accelerato e i skill files gratuiti sono format didattici replicabili; attenzione alla audience tecnica richiesta
+- **Funnel IG** (score medio 6/10): media — il formato funziona su nicchia developer/builder ma non scala su audience generalista; CTA tecnici rischiano di alienare follower non-dev
+
+---
+
+### Idee replicabili sui brand del portfolio
+
+> ⚠️ Applicazione indiretta: claude-code è tool operativo interno, non topic di contenuto per brand fashion/tessile. Le idee sotto riguardano l'USO di Claude Code per produrre contenuti/processi per quei brand, non la comunicazione di Claude Code al loro pubblico.
+
+1. **001 abbigliamento — Skill file "brand voice 001"**: costruire un CLAUDE.md specifico per il brand con tono, palette cromatica descrittiva, riferimenti estetici, tabù comunicativi. Ogni output di Claude (copy, caption, descrizioni prodotto) viene filtrato da questo file senza re-prompting manuale. Tempo implementazione: 2-4h.
+
+2. **Cuore Italiano tessile — Orchestration layer per content calendar**: usare il pattern "orchestration layer" (simorizzo\_ai) per automatizzare la generazione di varianti di contenuto da un brief unico — un'idea di prodotto → 5 caption per 5 formati IG diversi, tutte coerenti con il posizionamento artigianale/italiano. Riduce il bottleneck creativo settimanale.
+
+3. **Gabriella G luxury — Remote Claude Code per shooting day**: con il setup ngrok+ttyd, Mirco (o il team) può generare copy di prodotto, alt text, descrizioni e-commerce direttamente da smartphone durante gli shooting, senza tornare in ufficio. Il contenuto visivo e il contenuto testuale nascono in parallelo nello stesso momento.
+
+---
+
+### Contro-esempi · cosa NON replicare
+
+- **Triple posting dello stesso tutorial** (vedi olivia.inthecity × 3): saturazione del singolo angolo tecnico senza aggiungere layer. Su IG funziona per chi ha già audience warm; per costruire audience è rumore
+- **Setup tecnico troppo complesso come hook principale** (ngrok + ttyd + Caddy in 60s): audience non-developer abbandona nei primi 5s. Il contenuto è prezioso ma presuppone prerequisiti alti — rischioso come primo contenuto su un topic
+- **Urgency 0/10 su contenuti architetturali**: i pezzi più visionari (Chase, simorizzo\_ai) hanno urgency zero — interessanti per posizionamento thought leader ma non generano azione immediata. Non usarli come contenuti di conversione
+
+---
+
+### Urgenza media e tempo implementazione tipico
+
+- **Urgency score medio:** 6.0/10 (calcolato su valori espliciti: 7,7,7,8,8,8,8,0,0 → media ponderata per peso recency)
+- **Time-to-implement tipico:** 2-8 ore per skill file / setup tecnico; 1-2 settimane per architetture sistemiche complete
+- **Finestra di rilevanza:** alta ora (Claude Code in fase di adozione accelerata); rischio di commoditizzazione del topic entro 3-6 mesi quando i tutorial diventeranno mainstream
+
+---
+
+### Riferimenti top 5
+
+1. **"Claude Code multi-progetto: la tecnica 'skill scoped a path'"** · spinabuilds — pattern fondamentale su skill files contestuali
+2. **"3 Skill Files gratuiti per trasformare l'output di Claude Code"** · homerknowsai — lead magnet tecnico + distribuzione open
+3. **"Il video introduce il concetto di 'Agentic OS'"** · Chase — visione sistemica più ampia, score 10/10
+4. **"Claude Code da smartphone: terminale remoto custom con ngrok e ttyd"** · olivia.inthecity — caso tecnico DIY più completo della serie
+5. **"Claude Code: da settimane a giorni nell'onboarding tecnico"** · evolving.ai — narrativa di accelerazione applicabile ad Academy
+
+---
+
+⚠️ Generated automaticamente. Confidence=low significa che pattern hanno segnali deboli da consolidare. N=9 è sotto la soglia di affidabilità statistica (N≥15). I pattern su skill files e infrastruttura remota sono i più consolidati (4/9 e 3/9); i pattern architetturali sistemici sono emergenti ma non ancora dominanti nel campione. Modificare manualmente solo aggiungendo annotazioni in fondo, non riscrivendo il body.
