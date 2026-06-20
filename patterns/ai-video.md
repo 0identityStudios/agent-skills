@@ -1,117 +1,116 @@
 ## Pattern · ai-video
 
-**Confidence:** medium (N=10)
-**Last build:** 2026-05-31T02:02:12Z
+**Confidence:** medium (N=14)
+**Last build:** 2026-06-20T02:04:21Z
 
 ---
 
 ### Cosa accumuna i contenuti che Mirco salva su questo topic
 
-1. **Workflow-first, non tool-first (80% dei contenuti):** Mirco salva quasi esclusivamente contenuti che mostrano un sistema replicabile end-to-end, non semplici demo di tool. Il valore percepito è nel *come si connettono* gli strumenti, non nel singolo output.
+1. **Workflow multi-step come contenuto principale (86% dei pezzi)** — Non si mostra solo un tool, si mostra una catena: Pinterest → AI → output finale. Il "come ho fatto" è il prodotto editoriale. Il valore percepito sale proporzionalmente al numero di strumenti orchestrati visibilmente.
 
-2. **Scalabilità industriale come frame narrativo (70%):** Il claim "N output/giorno" o "in X mesi → $Y" ricorre in modo sistematico (550 video/giorno, $500k in 3 mesi, clonazione virale a scala). Mirco è attratto da workflow che promettono volume senza proporzionale aumento di risorse umane.
+2. **Output visivo di qualità broadcast come proof-of-concept (100%)** — Ogni contenuto salvato ha un prima/dopo o un output finale che compete con produzioni professionali (spot Rolex, video drone fotorealistici, FPV cinematografici). Il messaggio implicito: "sembra costoso, è stato fatto con AI".
 
-3. **Node-based / multi-agent come architettura preferita (60%):** ElevenLabs Flows, Higgsfield Supercomputer, Freepik Spaces, Rolex spot node-based: c'è una preferenza marcata per sistemi visuali a nodi rispetto a CLI o script manuali. Segnale forte per Agent Creator e Claude Code.
+3. **Scalabilità come argomento di autorità (≥70% dei pezzi)** — La promessa non è "bel video" ma "550 video/giorno", "a scala industriale", "in 3 step". Il volume e la velocità sono il differenziatore narrativo, non la qualità isolata.
 
-4. **Contenuti a vocazione funnel-IG (90%):** 9 contenuti su 10 sono taggati `funnel-ig`. Mirco non salva per curiosità accademica — salva per estrarre meccanismi da replicare sulla propria distribuzione Instagram/Academy.
+4. **Higgsfield come piattaforma emergente dominante (4 contenuti su 14 = 29%)** — Concentrazione anomala su un singolo tool in fase di lancio. Segnale che Mirco sta monitorando attivamente un ecosistema in costruzione, probabilmente con intenzione di posizionarsi early.
 
-5. **Qualità cinematic + automazione: il binomio ricorrente (50%):** Drone fotorealistici, Rolex spot, FPV con JSON prompt: la selezione premia contenuti che raggiungono estetica pubblicitaria alta-gamma *attraverso* automazione, non nonostante essa. Segnale diretto per i brand luxury del portfolio.
+5. **Funnel IG come destinazione primaria (tag funnel-ig in 11/14 = 79%)** — La quasi totalità dei contenuti è concepita come top-of-funnel IG verso academy, servizi o lead. Il contenuto AI-video non è fine a sé stesso: è veicolo di acquisizione.
 
 ---
 
 ### Visual signature ricorrenti
 
-- **Palette:** Toni freddi-neutri nei workflow screen (dark UI), contrasto con output video caldi/cinematici. Split-screen frequente (before/after, tool/output).
-- **Framing:** Wide shot con soggetto centrale pulito; quando si mostra lo schermo, zoom progressivo sul nodo o sul prompt chiave per guidare l'attenzione.
-- **Motion:** Transizioni rapide tra step del workflow (cut secco, non dissolve); nei video output si privilegia il movimento di camera fluido (drone, FPV, reframe) come proof-of-quality.
-- **Font/overlay:** Titoli bold sans-serif bianchi su sfondo scuro per step numerati; caption minimaliste, niente motion graphics elaborate — il video *è* la demo.
-- **Formato:** Prevalenza verticale (9:16) con crop/reframe come tecnica esplicita (lip-sync wide shot → crop → reframe).
+- **Split-screen e side-by-side** dominanti: processo a sinistra, output a destra. Struttura immediata, nessuna ambiguità su cosa verrà dimostrato.
+- **Screen recording con overlay animati** — finestre di tool che si aprono, prompt che appaiono in tempo reale, cursore visibile. Estetica "dietro le quinte tecnico".
+- **Output finale sempre in formato 9:16** anche quando il tutorial è su desktop — adattamento nativo mobile del risultato.
+- **Color grade cinematografico sull'output** (teal/orange, alto contrasto) per amplificare il "wow factor" del risultato AI rispetto alla semplicità del processo.
+- **UI dei tool in dark mode** quasi universale — coerenza visiva che fa percepire professionalità tecnica.
 
 ---
 
 ### Hook style ricorrenti
 
-- **"Numero impossibile" opener (40%):** Si apre con la metrica che sfida le aspettative ("550 video al giorno", "clona qualsiasi video virale"). L'hook funziona per contrasto con il costo percepito tradizionale.
-- **"Prima/dopo visivo istantaneo" (30%):** I primi 2-3 secondi mostrano l'output finale (lo spot Rolex, il drone fotorealistico) *prima* di spiegare come. Crea un gap di curiosità sul processo.
-- **"Tool che non conoscevi ancora" (20%):** L'hook è il nome del tool in anteprima con claim di novità ("Higgsfield Supercomputer è appena uscito", "ElevenLabs Flows cambia tutto"). Urgency built-in.
-- **Pattern condiviso:** nessun intro lungo, zero talking head nei primi secondi — si entra subito nell'output o nel claim numerico.
+- **Hook numerico + output impossibile**: *"3 step", "1 prompt solo", "550 video/giorno"* — il numero piccolo contrasta con il risultato grande. Formula: `[numero basso] → [risultato sproporzionato]`.
+- **Nome tool insolito + verbo d'azione**: *"Claude + Higgsfield MCP: reverse-engineering video"* — il binomio tool-tecnica crea curiosità su un meccanismo non ovvio.
+- **Domanda implicita nel titolo**: il viewer non capisce subito come è possibile, quindi resta. L'hook non spiega, promette una spiegazione.
+- **Primi 2-3 secondi = output finale prima del processo** — si mostra il risultato (spot Rolex, video drone) PRIMA di spiegare come. Inversione della struttura classica tutorial.
 
 ---
 
 ### Voice/audio pattern ricorrenti
 
-- **Energia media-alta, ritmo sostenuto:** Nessun contenuto "lento" o riflessivo — il parlato è denso di informazione, pausa minima tra concetti.
-- **Voiceover su schermo** più frequente di on-camera: il creator parla mentre mostra, non si mette davanti alla camera a spiegare. Abbassa la barriera di produzione.
-- **Tono pragmatico-dimostrativo**, non emozionale: "fai questo, poi questo, ottieni questo". Linguaggio da tutorial operativo, non da storytelling.
-- **Musica di sottofondo:** quasi sempre presente nei video output finali (proof di qualità audio), assente o sottovoce nei segmenti tutorial.
-- **Sintesi vocale AI visibile e accettata:** in diversi contenuti la voce è palesemente AI (ElevenLabs, ecc.) senza che questo venga nascosto — anzi diventa parte del pitch.
+- **Voiceover neutro-tecnico**, ritmo medio-veloce, nessuna enfasi emotiva eccessiva — comunica competenza, non hype.
+- **Tono didattico con urgency sottotesto**: frasi brevi, step numerati verbalmente ("step uno… step due…"), sensazione di masterclass compressa.
+- **Musica di sottofondo minimalista** (synth ambient o lo-fi) che non compete con la voce — funzione di riempimento emotivo neutro.
+- **Silenzio funzionale** nei momenti di attesa del tool (rendering, generazione) — non tagliato, usato come pausa narrativa che amplifica l'attesa del risultato.
+- **Nessun intro personale** — si entra direttamente nel contenuto. Zero secondi sprecati su presentazioni.
 
 ---
 
 ### Funnel/CTA pattern ricorrenti
 
-- **"Segui per il workflow completo"** + link in bio verso risorsa gratuita (template, JSON prompt, node graph) — meccanismo di lead gen via asset pratico.
-- **Demo → Academy/corso:** il pattern più frequente è: video dimostrativo organico → CTA verso corso/community a pagamento. Visibile in noahhfrydberg ($500k case study) e Higgsfield hooks.
-- **Tool affiliation implicita:** creator mostra tool specifico in modo approfondito → link affiliato o partnership. Mirco lo salva probabilmente per replicare la struttura, non l'affiliazione.
-- **Urgency temporale:** "questa feature è appena uscita", "prima che tutti lo facciano" — scarcity di knowledge window, non di prezzo.
-- **Nessun CTA aggressivo visibile:** la conversione avviene per valore dimostrato, non per pressione diretta. Coerente con l'estetica premium dei brand salvati.
+- **Comment bait tecnico** (*"commenta X per ricevere il prompt"*) — bassa frizione, alta conversione, costruisce lista DM attiva. Presente esplicitamente in almeno 2 pezzi, implicito in altri.
+- **Academy come destinazione naturale** del funnel: il contenuto crea bisogno di approfondimento → la academy lo soddisfa a pagamento.
+- **Tool demo come endorsement implicito** — mostrare Higgsfield, ElevenLabs, Google Flow senza essere affiliato posiziona Mirco come curatore di ecosistema, non venditore di singolo corso.
+- **"Link in bio" + scarcity implicita** (*"questo workflow cambierà presto"*, *"early access"*) — urgenza senza countdown esplicito.
+- **Nessun CTA aggressivo nel video** — il funnel è nel testo del post o nella bio, il video è puro valore. Strategia di fiducia prima, conversione dopo.
 
 ---
 
 ### Top 3 tool/framework menzionati
 
-1. **Higgsfield AI** — compare in 3 contenuti distinti (Supercomputer, Ad Reference, Hooks + Relight via chikchao). È il tool con maggiore peso nella selezione. Focus su: automazione UGC, hook generation, relighting, end-to-end filmmaking.
-2. **ElevenLabs Flows / node-based audio-video** — workflow visuale a nodi per video promozionali. Rilevante per integrazione voce AI + video pipeline.
-3. **Kling 2.6 + Freepik Spaces** (co-citati nel workflow FPV) + **Google Gemini + Earth** (drone workflow) — rappresentano la categoria "generazione video fotorealistica da prompt strutturato (JSON/visual)".
+1. **Higgsfield AI** — piattaforma end-to-end (4 menzioni dirette): Supercomputer, Ad Reference, Hooks, Relight. Stack emergente che Mirco monitora con priorità P0 in più occasioni.
+2. **Claude (Anthropic)** — presente in 3 workflow distinti come layer di prompt engineering / orchestrazione. Non come generatore video ma come "cervello" del workflow.
+3. **Google Flow / Gemini** — presente in 3 contenuti come generatore video + layer visivo. Coppia con ChatGPT/Claude per catene di prompt che terminano in output video.
+
+*Menzioni rilevanti:* ElevenLabs Flows (node-based audio/video), Kling 2.6, Freepik Spaces, Pinterest come input visivo.
 
 ---
 
 ### Applicabilità al portfolio Mirco
 
-- **Studios** (score medio: 9.2/10): Altissima. L'intero topic è *core business* di Studios. I workflow node-based, la produzione scalabile, il filmmaking AI end-to-end sono direttamente vendibili come servizio o come posizionamento.
-- **Agent Tax** (score medio: 4/10): Bassa diretta. Il topic non ha sovrapposizione con fiscalità/automazione contabile. Rilevanza indiretta: workflow AI come argomento di contenuto educativo sul "come automatizzare il lavoro".
-- **0 LABS** (score medio: 8/10): Alta. 0 LABS come R&D/lab interno trae vantaggio diretto dall'esplorazione di questi workflow. Ogni tool nuovo salvato è potenziale caso studio o integrazione.
-- **Academy** (score medio: 8.5/10): Molto alta. Il pattern "sistema → scalabilità → risultato numerico" è perfetto per curriculum Academy. Il caso "550 video/giorno" e i workflow node-based sono moduli didattici pronti.
-- **Funnel IG** (score medio: 9/10): Massima. 90% dei contenuti ha tag `funnel-ig` esplicito. Questi pattern sono la fonte diretta per i reel di Mirco su IG.
+- **Studios** (score medio: 8.5/10): Alta. Il workflow multi-tool è esattamente il servizio differenziante di uno studio AI-native. Spot pubblicitari generati con AI per clienti sono il caso d'uso diretto.
+- **Agent Tax** (score medio: 3/10): Bassa. Nessuna sovrapposizione tematica con compliance/fiscale. Unico uso possibile: video esplicativi automatizzati per content marketing.
+- **0 LABS** (score medio: 9/10): Massima. Il lab è il contesto naturale per sperimentare e documentare questi workflow. Ogni pezzo salvato è potenzialmente un esperimento replicabile e pubblicabile.
+- **Academy** (score medio: 8/10): Alta. I workflow multi-step sono corsi strutturati già impliciti. "Come creare spot con AI in 3 step" è una lezione, non un reel.
+- **Funnel IG** (score medio: 9/10): Massima. 11/14 contenuti hanno tag funnel-ig. Questo topic è già pensato come motore IG di acquisizione.
 
 ---
 
 ### Idee replicabili sui brand del portfolio
 
-1. **001 Abbigliamento — Spot collection con workflow AI cinematic:**
-   Replicare il pattern "Rolex spot node-based" adattato a un capo 001. Workflow: immagine prodotto → Kling 2.6 per movimento fabric → Higgsfield Relight per illuminazione editoriale → ElevenLabs voiceover → montaggio automatizzato. Output: spot 15-30s qualità campagna, costo marginale vicino a zero. Ideal per Reel + ads.
+1. **001 Abbigliamento — Spot collezione AI con workflow trasparente**: Replicare il pattern "spot Rolex con AI node-based" sulla nuova collezione 001. Mostrare il processo (Gemini + Claude + Higgsfield) come contenuto IG separato dallo spot finale. Doppio contenuto: il video del brand + il making-of del workflow. Il making-of performa su IG di Mirco, lo spot su IG di 001.
 
-2. **Cuore Italiano Tessile — Content machine B2B con video drone/showcase:**
-   Il workflow Google Earth + Gemini (drone fotorealistico) può generare video del territorio/produzione tessile italiana senza drone fisico. Storytelling "filiera italiana" con 10-20 varianti video per lo stesso asset fotografico. Volume + autenticità percepita. Funnel verso buyer internazionali.
+2. **Cuore Italiano Tessile — Video drone fotorealistici del territorio**: Usare il workflow Gemini + Google Earth per creare video aerei dei distretti tessili italiani (Prato, Biella, Como) senza drone fisico. Narrativa: "il territorio dove nasce il tessuto". Alta differenziazione per un brand B2B che non produce contenuto visivo competitivo. Costo vicino a zero, impatto percepito alto.
 
-3. **Gabriella G Luxury — UGC automation con Ad Reference cloning:**
-   Il pattern Higgsfield Ad Reference ("clona video virali a scala") applicato al luxury: identificare 3-5 video di brand competitor premium (Loro Piana, Brunello) che performano, usare Ad Reference per generare varianti stilistiche con asset Gabriella G. Test rapido di angoli creativi senza produzione tradizionale.
+3. **Gabriella G Luxury — Lip-sync e campaign video con UGC sintetico**: Applicare il workflow Higgsfield Ad Reference per clonare lo stile visivo di campagne luxury (Loro Piana, Brunello Cucinelli) e adattarlo al brand. Usare Higgsfield Hooks per generare varianti di video ad con hook diversi da testare in dark post. Scalare test senza produzione fisica.
 
 ---
 
 ### Contro-esempi · cosa NON replicare
 
-- **Tool demo fine a sé stesso senza workflow:** contenuti che mostrano solo "guarda cosa fa questo tool" senza sistema replicabile non entrano nella selezione di Mirco e non andrebbero prodotti — bassissimo valore percepito per il suo pubblico.
-- **Saturazione UGC generico:** il pattern UGC automation (testi AI + avatar parlante su sfondo bianco) è già saturo su TikTok/IG. Mirco salva versioni avanzate (Higgsfield Ad Reference con stile virale) — la versione base è da evitare.
-- **Workflow troppo tecnici senza output visivo immediato:** contenuti che partono da CLI, codice o configurazioni senza mostrare output nei primi 5 secondi non sono nella selezione. L'estetica del risultato deve essere visibile subito.
+- **Tool demo puro senza workflow** — mostrare solo le feature di un tool (es. "guarda cosa fa Higgsfield Relight") senza integrarlo in un processo produce contenuto a bassa retention. Il valore è nella catena, non nel singolo step.
+- **Scala industriale come aspirazione per brand luxury** — il pattern "550 video/giorno" funziona per e-commerce/TikTok ads ma è incompatibile con il posizionamento di Gabriella G o Cuore Italiano. Il volume è un segnale di commodity, non di lusso.
+- **Titoli clickbait con cifre di guadagno** (*"$500k in 3 mesi"*) — saturato su IG, credibilità in calo, rischio associazione con contenuto guru. Non allineato con il tono professionale di 0 Identity Studios.
 
 ---
 
 ### Urgenza media e tempo implementazione tipico
 
-- **Urgency score medio:** 8.4/10 — segnale forte che Mirco percepisce questo topic come *time-sensitive*. La finestra di vantaggio competitivo sui tool (Higgsfield, ElevenLabs Flows) è percepita come breve.
-- **Time-to-implement tipico:** 3-7 giorni per un primo workflow replicato (setup tool + primo output pubblicabile). Per un sistema scalabile (content machine tipo 550 video/giorno) stimare 3-4 settimane di setup e test.
-- **Raccomandazione per Agent Creator:** prioritizzare contenuti su questo topic nelle prossime 2-3 settimane mentre i tool citati sono ancora in fase di adozione early majority.
+- **Urgency score medio: 8.1/10** — topic ad alta velocità di obsolescenza. I tool cambiano in settimane (Kling 2.5 → 2.6, Higgsfield in continuous rollout). Contenuto prodotto oggi ha finestra di rilevanza di 30-60 giorni massimo.
+- **Time-to-implement tipico: 2-4 ore per workflow documentato** — il tempo non è nella produzione video ma nel testare la catena di tool, identificare i friction point e strutturare la narrazione step-by-step. Il reel finale è la superficie, il lavoro è nel workflow testato.
+- **Implicazione operativa**: priorità P0 richiede pubblicazione entro 1-2 settimane dalla data di salvataggio. Oltre, il contenuto è già potenzialmente superato da un aggiornamento del tool.
 
 ---
 
 ### Riferimenti top 5
 
-1. **"Higgsfield Supercomputer: piattaforma AI end-to-end per il filmmaking"** · higgsfield.ai — score 10/10, il contenuto più denso di implicazioni sistemiche per Studios e Academy.
-2. **"Higgsfield Ad Reference: clonare video virali con AI a scala industriale"** · higgsfield.ai — score 10/10, massima rilevanza per ads dei brand portfolio.
-3. **"Spot pubblicitario Rolex creato con workflow AI node-based multi-tool"** · sorareal.ai — score 10/10, blueprint diretto per 001/Gabriella G.
-4. **"Sistema AI per 550 video/giorno: scalare e-commerce a $500k in 3 mesi"** · noahhfrydberg — score 9/10, caso studio numerico ideale per contenuto Academy/funnel.
-5. **"Video drone fotorealistici con Gemini + Google Earth: workflow completo"** · ariacodez — score 9/10, applicazione immediata per storytelling territoriale Cuore Italiano.
+1. **"Higgsfield Supercomputer: piattaforma AI end-to-end per il filmmaking"** · higgsfield.ai — score 10/10, P0. Contenuto più rappresentativo dell'ecosistema che Mirco vuole presidiare.
+2. **"Spot pubblicitario Rolex creato con workflow AI node-based multi-tool"** · sorareal.ai — score 10/10, P0. Template visivo ideale per Studios e campagne brand.
+3. **"Motion graphics da video con AI in 3 step: Pinterest + ChatGPT + Google Flow"** · terencesia — score 9/10, P0. Struttura workflow più pulita e replicabile della raccolta.
+4. **"Sistema AI per 550 video/giorno: scalare e-commerce a $500k in 3 mesi"** · noahhfrydberg — score 9/10, P1. Caso limite utile per capire il tetto della scalabilità e cosa NON fare per brand positioning.
+5. **"Higgsfield Ad Reference: clonare video virali con AI a scala industriale"** · higgsfield.ai — score 10/10, P0. Tecnica più direttamente applicabile a campagne ads per i brand del portfolio.
 
 ---
 
