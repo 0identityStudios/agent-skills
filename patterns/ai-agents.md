@@ -1,128 +1,122 @@
 ## Pattern · ai-agents
 
-**Confidence:** high (N=75)
-**Last build:** 2026-06-21T02:02:23Z
+**Confidence:** high (N=79)
+**Last build:** 2026-06-27T02:08:13Z
 
 ---
 
 ### Cosa accumuna i contenuti che Mirco salva su questo topic
 
-1. **Architettura > Modello (≈40% dei contenuti):** Il pattern dominante non è "quale AI usare" ma "come costruire il sistema attorno all'AI". Harness, knowledge graph, RAG, context management compaiono in oltre 30 contenuti. Mirco è attratto da contenuti che spiegano *l'infrastruttura*, non i singoli tool.
+1. **Automazione end-to-end di workflow reali** (presente in ~68% dei contenuti): Mirco salva quasi esclusivamente casi in cui l'agente AI sostituisce o elimina un intero processo umano (marketing team, video editing, outreach B2B, SEO audit), non semplici "AI tips". Il criterio implicito è: *zero touch o quasi*.
 
-2. **Output tangibile + metrica economica (≈35%):** I contenuti con score 10/10 quasi sempre includono un risultato misurabile: "$1.240 in 7 giorni", "marketing team che gira prima delle 9", "$30M startup zero dipendenti". Il valore astratto non viene salvato, il valore quantificato sì.
+2. **Architettura > modello** (~40% dei contenuti con tag `llm-architecture`, `harness`, `multi-agent`, `rag`): Forte bias verso contenuti che spiegano *come è costruito* il sistema agentale (harness, knowledge graph, orchestration), non quali tool usare. Pattern ricorrente: "il contesto e l'architettura valgono più del modello scelto".
 
-3. **Claude come runtime preferito (≈55% dei contenuti taggati):** Claude compare in oltre 40 contenuti su 75, spesso non come chatbot ma come *execution layer*: Claude Code, Claude Skills, Claude + Remotion, Claude + Obsidian. Il bias è fortissimo e non casuale — è una scelta di stack.
+3. **Claude come layer di intelligenza primario** (~55% dei contenuti contiene `claude-code` o `claude` nei tag): Non è neutralità tool-agnostica. Mirco ha una preferenza editoriale esplicita per l'ecosistema Anthropic. Claude Code appare come IDE agentico preferito per automazione coding/content/video.
 
-4. **Solo-operator / one-person-company come frame narrativo (≈45%):** Startup gestita da zero dipendenti, AI che sostituisce il team marketing, founder solo con full-stack AI. Mirco salva sistematicamente contenuti che legittimano la struttura operativa che lui stesso sta costruendo con 0 Identity Studios.
+4. **Solopreneur / one-person-company come frame narrativo** (~35% dei contenuti): Startup da $30M zero dipendenti, team marketing automatizzato, founder solo con AI completa. Il pattern emotivo ricorrente è *leverage individuale estremo*, non enterprise adoption.
 
-5. **Knowledge base come asset strategico (≈30%):** Obsidian, Graphify, knowledge graph, second brain, Book-to-Skill. Un cluster denso attorno all'idea che la conoscenza strutturata sia il vero moat competitivo degli agenti AI — non il modello, non il codice.
+5. **Academy-funnel bilanciato** (~45% dei contenuti ha tag `funnel-ig` o `academy`): I contenuti salvati servono un duplice scopo editoriale riconoscibile: educational (come funziona) + acquisizione (lead gen, comment bait, urgency). Mirco salva contenuti che fanno entrambe le cose simultaneamente.
 
 ---
 
 ### Visual signature ricorrenti
 
-- **Palette:** Sfondo scuro (nero/near-black) con accent monocromatici — verde terminale, bianco tipografico, blu elettrico. Raramente colori caldi. L'estetica è dev-first, non consumer.
-- **Font:** Sans-serif tecnici (tipo JetBrains Mono, Inter, Space Grotesk). Gerarchia basata su peso e size, non su colore. Codice inline visibile nello screenshot.
-- **Framing:** Screen recording del terminale o dell'interfaccia in funzione > mockup statici. Il *processo* è il contenuto, non il risultato finale levigato.
-- **Motion:** Velocità accelerata su sequenze di automazione (type-fast, scroll-fast) per comunicare efficienza. Cut rapidi tra step del workflow, niente transizioni morbide.
-- **Overlay testo:** Titolo grande centrato nei primi 2s, poi scompare. Il video "cammina da solo" senza testo di supporto continuo — scelta opposta al captions-always style consumer.
+- **Palette:** Dark mode dominante (bg nero/grafite), accenti neon monocolore (verde lime, blu elettrico, arancione). Raramente palette chiare — quando presenti, indicano tool consumer (Palmier, Ponytail).
+- **Font:** Sans-serif bold condensato per headline overlay (stile Neue Haas / Inter Black). Corpo testo piccolo e denso per credibilità tecnica.
+- **Framing:** Screen recording + annotation overlay (frecce, cerchi, highlight a mano libera digitale). Il workflow viene mostrato *in progress*, non come risultato finito.
+- **Motion:** Cut rapidi (2-4s per step), zoom in su parti di codice o output, transizioni hard cut senza effetti. Energia da tutorial tecnico accelerato.
+- **Struttura visiva ricorrente:** Hook frame (claim numerico/provocatorio) → demo screencast → risultato mostrato (output, metrica, revenue) → CTA testuale sovrapposta.
 
 ---
 
 ### Hook style ricorrenti
 
-- **Formula "X sostituisce Y" nei primi 2s:** *"Claude Code sostituisce il video editor"*, *"AI costruisce brand, marketing e video"*. Affermazione provocatoria che viola l'assunzione di base dello spettatore.
-- **Numero + timeframe immediato:** *"$1.240 in 7 giorni"*, *"prima delle 9"*, *"-70x token"*. Il numero è sempre specifico, mai tondo. La specificità è il segnale di credibilità.
-- **Show-don't-tell dal secondo 0:** Nessuna intro, nessun "ciao ragazzi". Il terminale è già in esecuzione, il workflow è già avviato. L'hook è visivo, non verbale.
-- **Paradosso operativo:** *"startup da $30M con zero dipendenti"*, *"team marketing che non esiste"*. Il paradosso forza il watch-time perché il cervello vuole risolverlo.
+- **Claim numerico + timeframe compresso:** *"$1.240 in 7 giorni"*, *"-70x token"*, *"prima delle 9"* — la metrica concreta apre il video e impone urgenza cognitiva immediata.
+- **Sostituzione radicale dichiarata:** *"Claude sostituisce il video editor"*, *"zero dipendenti"*, *"senza uscire dall'editor"* — hook per sottrazione, non per aggiunta.
+- **Domanda implicita di gap:** Il creator NON fa la domanda esplicitamente ma mostra uno stato finale impossibile → l'utente si chiede automaticamente *come ci è arrivato*.
+- **Formula "X + Y = risultato impossibile":** *"Claude + Remotion = video editato da AI"*, *"Brain + Claude = campagne zero touch"* — la giustapposizione di due tool noti crea curiosità sulla connessione.
 
 ---
 
 ### Voice/audio pattern ricorrenti
 
-- **Registro:** Tecnico-diretto, zero fluff. Nessuna enfasi motivazionale. Il tono è quello di un senior dev che spiega a un collega, non di un creator che vende a un audience.
-- **Ritmo:** Veloce ma non ansioso. Frasi brevi. Pausa breve dopo ogni affermazione-chiave per lasciare che il dato atterri. Media stimata: 160-180 wpm.
-- **Prosody:** Voce piatta con spike di enfasi sui numeri e sui nomi tecnici (Claude, RAG, harness). L'intonazione sale su "e questo significa che…" — il punto di svolta pratico.
-- **Audio design:** Spesso solo voce + ambient sonoro minimo (tastiera, click). Niente musica di sottofondo nei contenuti tecnici. Quando c'è musica, è strumentale lo-fi in sottofondo basso.
-- **Lingua:** Italiano o inglese, mai mix. I creator italiani (guglielmo.builds, simorizzo_ai, micheleparigi.ai) restano in italiano anche su topic tecnici — segnale che il mercato italiano è target reale.
+- **Ritmo:** Veloce ma non frenetico. Pause deliberate dopo i claim numerici (beat di 0.5-1s per lasciare che il numero "atterri"). Non c'è esitazione o filler — editing pulito delle pause naturali.
+- **Energia:** Medium-alta, tono didattico-entusiasta. NON hype da influencer. Il creator parla come se stesse spiegando a un collega tecnico, non vendendo a un consumer.
+- **Prosody:** Frase corta → pausa → frase tecnica densa → pausa → conclusione con implicazione. Struttura tripletta ricorrente.
+- **Registro:** Prima persona singolare, aneddoto personale o caso proprio. *"Ho costruito"*, *"Ho automatizzato"*, *"Ecco cosa ho scoperto"* — autorevolezza per esperienza diretta, non per credenziali.
+- **Audio ambientale:** Musica lo-fi o assente nei tutorial tecnici. Quando presente, sottofondo minimale che non compete con la voce.
 
 ---
 
 ### Funnel/CTA pattern ricorrenti
 
-- **Comment-bait su risorsa:** *"scrivi X nei commenti per ricevere il workflow"* — meccanismo ricorrente, almeno 15 contenuti lo usano esplicitamente. Boost algoritmico + lead capture combinati.
-- **Link in bio → tool/template gratuito:** Il contenuto mostra il problema + la soluzione abbozzata, la soluzione completa è fuori (Notion, GitHub, Gumroad). Funnel a due step.
-- **Urgency implicita da trend:** *"le 8 industrie che si stanno automatizzando adesso"* — non c'è scadenza esplicita, ma il framing "sta succedendo ora" crea FOMO latente.
-- **Academy come destinazione naturale:** Contenuti taggati `academy-content` mostrano il concetto abbastanza da generare desiderio, non abbastanza da eliminare il bisogno di approfondire. La frammentazione è deliberata.
-- **Zero CTA verbale nei contenuti top-score:** I contenuti con score 9-10 raramente hanno CTA esplicita a voce. La CTA è visual (overlay finale, link in bio statico). Segnale che l'audience tecnica rigetta il pitch verbale.
+- **Comment bait tecnico** (~30% dei contenuti): *"Commenta X per ricevere il file"*, *"Scrivi AGENT per il template"* — trigger di acquisizione lead via commento, abbassa la frizione rispetto al link in bio.
+- **Link a risorsa open-source** (~25%): GitHub repo, Obsidian vault, file `.md` scaricabile. Generosità tattica che costruisce autorevolezza e genera traffico qualificato.
+- **Urgency implicita** (non timer, ma frameworked scarcity): *"Questo cambierà nei prossimi 6 mesi"*, *"Adottalo prima che diventi mainstream"* — urgency per obsolescenza tecnologica, non per offerta limitata.
+- **Sequenza educativa** (~20%): Contenuto singolo → serie ("Cofounder 1 → Cofounder 2"). Il funnel è narrativo: ogni pezzo richiama il successivo.
+- **Soft sell Academy/tool** in chiusura: L'ultimo frame menziona corso, comunità o tool del creator — mai come apertura, sempre come conclusione naturale dopo valore dimostrato.
 
 ---
 
 ### Top 3 tool/framework menzionati
 
-| Rank | Tool/Framework | Occorrenze stimate | Ruolo ricorrente |
+| Rank | Tool/Framework | Frequenza stimata | Contesto d'uso |
 |---|---|---|---|
-| 1 | **Claude / Claude Code** | ~42/75 | Execution layer, runtime agenti, automazione video/SEO/brand |
-| 2 | **n8n / workflow automation** | ~18/75 | Orchestration layer, connettore tra agenti e servizi esterni |
-| 3 | **Obsidian + knowledge graph (Graphify)** | ~14/75 | Persistent memory, second brain, context compression |
+| 1 | **Claude / Claude Code** | ~55% dei contenuti | Coding agent, automazione contenuti, video, SEO, loop agentici |
+| 2 | **n8n / workflow no-code** | ~20% dei contenuti | Orchestrazione agenti, outreach B2B, pipeline automation |
+| 3 | **Remotion / Obsidian / RAG** | ~15% ciascuno | Video automation, knowledge base persistente, memory agent |
 
 ---
 
 ### Applicabilità al portfolio Mirco
 
-- **Studios** (score medio 9.1/10): Massima applicabilità. Gli agenti AI *sono* il prodotto di Studios. Ogni pattern qui è materiale diretto per clienti, case study, demo.
-- **Agent Tax** (score medio 8.4/10): Alta applicabilità. Il frame "architettura > modello" e "SaaS → SIaS" mappa direttamente sulla tesi di Agent Tax. Contenuti di posizionamento intellettuale.
-- **0 LABS** (score medio 8.8/10): Alta applicabilità. Il cluster multi-agente + automazione marketing è il laboratorio operativo. Ciò che Mirco salva = ciò che 0 LABS può testare e documentare.
-- **Academy** (score medio 7.6/10): Buona applicabilità. I contenuti taggati `academy-content` e `llm-architecture` sono direttamente adattabili come moduli. Attenzione: l'audience Academy richiede più scaffolding rispetto ai contenuti raw salvati.
-- **Funnel IG** (score medio 8.2/10): Alta applicabilità. Il formato comment-bait + numero specifico + hook paradossale è replicabile immediatamente su profilo Mirco con zero adattamento creativo.
+- **Studios** (score medio 8.8/10): Massima applicabilità. L'architettura harness + Claude Code è direttamente replicabile per produrre deliverable client (UX flow automatici, audit, asset on-brand). Il `design.md` pattern è immediatamente operativo.
+- **Agent Tax** (score medio 9.2/10): Core topic. Tutti i pattern di questo cluster alimentano direttamente la narrativa e i case study di Agent Tax. Multi-agent, knowledge graph, loop agentici sono il prodotto.
+- **0 LABS** (score medio 8.5/10): Alta applicabilità per content creation automatizzato e workflow sperimentali. Il pattern video-automation (Claude + Remotion) è replicabile per produzione contenuti lab.
+- **Academy** (score medio 8.6/10): Il ~45% dei contenuti ha già tag `academy`. Pattern didattico chiaro: harness spiegato semplice, loop agentico step-by-step, second brain con Obsidian. Formato lezione pronto.
+- **Funnel IG** (score medio 8.9/10): Pattern comment-bait + claim numerico + solopreneur frame sono altamente replicabili. Il tag `funnel-ig` compare in 8+ contenuti P0/P1 recenti — segnale editoriale forte.
 
 ---
 
 ### Idee replicabili sui brand del portfolio
 
-1. **001 abbigliamento — "L'agente AI che gestisce il drop":**
-Workflow visibile: agente AI che monitora stock, genera copy varianti per ogni SKU, schedula post e risponde ai DM pre-lancio. Frame: *"un solo founder, zero team, drop da X pezzi esauriti in Y ore"*. Replica diretta del pattern "solo-operator + metrica economica". Il prodotto fisico diventa la prova che gli agenti funzionano nel reale, non solo nel digitale.
+1. **001 Abbigliamento — "AI stylist agentico per capsule collection":** Replicare il pattern `design.md` applicato al fashion: un file strutturato (`brand.md`) che guida Claude nella generazione di varianti di prodotto on-brand, palette stagionale, copy schede prodotto. Angolo: *"Come 001 crea 30 varianti di capsule in 1 ora senza designer aggiuntivi"* — solopreneur frame applicato al fashion brand.
 
-2. **Cuore Italiano tessile — "Knowledge base del made in Italy come moat":**
-Costruire e mostrare una knowledge graph dei fornitori, dei materiali, delle certificazioni tessili italiane — alimentata con documenti interni e resa interrogabile da un agente Claude. Frame: *"70 anni di know-how tessile in un agente che risponde in 3 secondi"*. Replica del pattern "knowledge base come asset strategico" applicato a un dominio analogico con alta densità di know-how tacito.
+2. **Cuore Italiano Tessile — "Knowledge graph del patrimonio tessile per agente B2B":** Applicare il pattern Graphify/Obsidian a un corpus di certificazioni, tessuti, fornitori storici. L'agente risponde a buyer internazionali con precisione tecnica e storytelling artigianale. Angolo educativo per Academy: *"Come costruire un cervello AI per un'azienda tessile tradizionale"* — contenuto ponte tra tradizione e agentic AI.
 
-3. **Gabriella G luxury — "Brand brain AI per coerenza narrativa su ogni touchpoint":**
-Replica diretta del contenuto "cervello creativo AI per centralizzare asset di brand" (raph__ai, score 9/10). Agente RAG alimentato con lookbook, testi brand, font guide, palette, tono di voce. Output: copy per email, caption, schede prodotto sempre in-brand senza briefing ogni volta. Per il lusso, la coerenza narrativa è il prodotto — l'agente diventa guardiano dell'identità.
+3. **Gabriella G Luxury — "AI agent per client relationship management zero-touch":** Replicare il pattern multi-agent per automazione del pre/post vendita luxury: outreach personalizzato, follow-up, curation wishlist cliente. Angolo: *"Come un brand luxury gestisce relazioni premium con agenti AI senza perdere il tocco umano"* — human-in-the-loop come differenziatore, non come limite.
 
 ---
 
 ### Contro-esempi · cosa NON replicare
 
-- **Hype senza architettura:** Contenuti tipo "ho usato ChatGPT e ho guadagnato X" senza mostrare il sistema non compaiono nella KB di Mirco. Lui non salva magic-thinking. Non replicare il formato "prompt ajacolato = risultato".
-- **Tool-review generiche:** Nessun contenuto nella KB è una recensione neutrale di uno strumento. Ogni tool è sempre embedded in un workflow concreto. Evitare i "top 5 AI tools del 2025" senza contesto operativo.
-- **CTA aggressiva verbale:** I contenuti con score più basso tendono ad avere pitch verbale esplicito. L'audience tecnica che Mirco vuole raggiungere rigetta il formato "clicca il link in bio adesso". La CTA deve essere architettata nel contenuto, non appesa alla fine.
-- **Estetica consumer/bright:** Palette colorata, sticker, emoji animate, testo karaoke continuo. Zero esempi di questo stile nella KB. Sarebbe un cambio di target audience che Mirco non ha segnalato di voler fare.
+- **Demo tool senza caso d'uso reale:** Contenuti che mostrano un tool funzionare in sandbox senza metriche o output concreto. Mirco non salva quasi nulla di puramente dimostrativo senza outcome misurabile — evitare il formato "guarda quanto è figo".
+- **Hype su modelli generici (GPT-4, Gemini generico):** L'assenza quasi totale di contenuti OpenAI-centrati nella selezione è un segnale editoriale deliberato. Non replicare content su "i 10 prompt ChatGPT" — saturato e non allineato al posizionamento.
+- **Tutorial troppo lunghi senza payoff visivo rapido:** Il pattern visivo dominante è hook → demo → risultato in <90 secondi. Contenuti educational lunghi senza proof point veloce non vengono salvati — evitare il formato spiegazione accademica.
+- **Claim senza architettura:** Post che dichiarano "ho automatizzato tutto con AI" senza mostrare almeno il layer architetturale (harness, orchestration, tool chain). Mirco salva il *come*, non il *cosa*.
 
 ---
 
 ### Urgenza media e tempo implementazione tipico
 
-- **Urgency score medio:** 7.5/10 (calcolato su pesi recency × urgency dichiarata nei metadati)
-- **Distribuzione:** 4 contenuti urgency 9/10 — tutti multi-agent o automation-revenue. 18 contenuti urgency 8/10 — cluster video-automation e workflow no-touch. La coda lunga è urgency 7/10 (knowledge base, architettura).
-- **Time-to-implement tipico:**
-  - Contenuti `funnel-ig` replicabili: **2-4 ore** (hook + formato + adattamento topic)
-  - Workflow automazione mostrabile: **1-3 giorni** (setup + screen recording + editing)
-  - Architettura agente completa (knowledge graph, harness): **1-2 settimane** per versione demo pubblica
-- **Finestra di rilevanza stimata:** 60-90 giorni per i P0. Il topic AI agents è in accelerazione — i pattern attuali hanno shelf-life corta sul framing specifico (es. Claude Code), ma la logica architetturale sottostante è stabile a 12+ mesi.
+- **Urgency score medio:** 7.4/10 (calcolato su contenuti pesati per recency)
+- **Distribuzione:** 4 contenuti a urgency 9/10, 12 a urgency 8/10, maggioranza a 7/10 — nessun contenuto sotto 6/10 nel cluster recente. Cluster ad alta urgenza percepita.
+- **Time-to-implement tipico:** 3-7 giorni per replicare un singolo workflow (un video automation, un loop agentico, un knowledge graph base). I contenuti P0 con urgency 8-9 suggeriscono implementazione entro sprint corrente. Nessun contenuto implica setup multi-mese.
+- **Pattern temporale:** I contenuti più urgenti (score 9/10) sono tutti legati a Claude Code — segnale che l'ecosistema sta evolvendo rapidamente e il vantaggio first-mover su specifiche skill è percepito come temporaneo.
 
 ---
 
 ### Riferimenti top 5
 
-1. **"Sistema multi-agente AI automatizza intero team marketing prima delle 9"** · seanpurvis.ai — Massimo score (10/10), urgency 9/10. Template narrativo completo: problema (team costoso) → sistema → metrica → replica. Il contenuto più rappresentativo del pattern core.
+1. **"Sistema multi-agente AI automatizza intero team marketing prima delle 9"** · seanpurvis.ai — *score 10/10, urgency 9/10* — Caso d'uso più completo e replicabile del cluster: pipeline multi-agent con output concreto e metrica temporale.
 
-2. **"Complessità nascoste negli agenti AI: da prototipo a produzione"** · giustomuh.dev — Score 10/10. Rappresenta il pattern "architettura > hype". Contenuto di posizionamento intellettuale, non di vendita. Mirco lo salva perché legittima la complessità che lui gestisce per i clienti.
+2. **"Complessità nascoste negli agenti AI: da prototipo a produzione"** · giustomuh.dev — *score 10/10, urgency 8/10* — Contenuto architetturale più denso: gap prototipo-produzione, guardrails, RAG. Fondamentale per Academy e Agent Tax.
 
-3. **"Workflow AI no-touch: Brain + Claude per campagne pubblicitarie automatizzate"** · raph__ai — Score 10/10. Massima sintesi del pattern Studios: cliente entra, campagna esce, zero touchpoint umani intermedi.
+3. **"Workflow AI no-touch: Brain + Claude per campagne pubblicitarie automatizzate"** · raph__ai — *score 10/10, urgency 8/10* — Caso d'uso direttamente replicabile per Studios e clienti: zero touch, output pubblicitario, stack dichiarato.
 
-4. **"Knowledge Graph persistente per Claude: -70x token con Graphify e Obsidian"** · charlieautomates — Score 9/10. Contenuto tecnico puro con metrica specifica. Rappresenta il cluster knowledge-base come moat. Direttamente replicabile per Academy.
+4. **"design.md: guidare l'AI nella creazione di asset on-brand con un file strutturato"** · gregisenberg — *score 9/10, urgency 8/10, priority P0* — Pattern più immediatamente applicabile ai brand del portfolio (001, Gabriella G). Bassa frizione tecnica, alto impatto narrativo.
 
-5. **"Dal SaaS al SIaS: costruire ambienti dati per agenti AI"** · lostandlucky — Score 9/10. Frame strategico di lungo periodo. Mappa sulla tesi Agent Tax. Il contenuto più vicino a pensiero originale vs tutorial operativo.
+5. **"Loop agentici in Claude Code: automazione task complessi con /goal"** · dariofontanel.ai — *score 9/10, urgency 7/10* — Contenuto più salvato dal singolo creator (dariofontanel.ai appare 3 volte nel cluster recente): segnale che Mirco considera questo creator un riferimento primario sul topic.
 
 ---
 
